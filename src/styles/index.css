@@ -157,11 +157,10 @@ h1, h2, h3 { line-height: 1.12; letter-spacing: -0.01em; margin: 0; }
 h1 { font-size: clamp(2.1rem, 5.2vw, 3.6rem); font-weight: 800; }
 h2 { font-size: clamp(1.7rem, 3.4vw, 2.4rem); font-weight: 750; }
 h3 { font-size: 1.18rem; font-weight: 700; }
-.lead { color: var(--ink-dim); font-size: clamp(1.02rem, 1.6vw, 1.18rem); max-width: 74ch; }
+.lead { color: var(--ink-dim); font-size: clamp(1.02rem, 1.6vw, 1.18rem); }
 
 /* ---- Hero ---- */
 .hero { padding: clamp(72px, 12vh, 140px) 0 64px; }
-.hero h1 { max-width: 24ch; }
 .hero .lead { margin-top: 22px; }
 .hero-grad { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
@@ -245,11 +244,11 @@ h3 { font-size: 1.18rem; font-weight: 700; }
   margin-bottom: 14px;
 }
 
-.section-head { margin-bottom: 36px; max-width: 80ch; }
+.section-head { margin-bottom: 36px; }
 .section-head .lead { margin-top: 14px; }
 
 /* ---- Prose (About bio) ---- */
-.prose { max-width: 80ch; }
+.prose { }
 .prose p { color: var(--ink); font-size: clamp(1.02rem, 1.5vw, 1.15rem); margin: 0 0 18px; }
 .prose p:last-child { margin-bottom: 0; }
 
@@ -384,7 +383,7 @@ h3 { font-size: 1.18rem; font-weight: 700; }
 
 /* ---- CTA banner ---- */
 .cta { border: 1px solid var(--line-strong); border-radius: 18px; padding: 48px 40px; background: var(--panel-solid); text-align: center; }
-.cta h2 { max-width: 32ch; margin-inline: auto; }
+.cta h2 { margin-inline: auto; }
 .cta .lead { margin: 14px auto 26px; }
 
 /* ---- Footer ---- */
