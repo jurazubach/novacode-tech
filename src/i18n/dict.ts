@@ -134,40 +134,25 @@ export const en = {
 
   "expertise.timeline.title": "Track record",
 
-  "exp.playson.role": "Full-stack & Game Developer — iGaming (current)",
-  "exp.playson.period": "Sep 2021 – present",
-  "exp.playson.text":
-    "Building high-load systems for a leading iGaming operator. Three CRM and analytics platforms for promo mechanics, real-time insights and B2B partners (React 18). Node.js / NestJS microservices with contract validation from inheritable JSON schemas. Core developer of a next-generation slot engine — a 60+ package Nx monorepo on Phaser with an XState spin lifecycle — plus the in-browser developer tooling the team ships with.",
+  "exp.s1.period": "2021 — present",
+  "exp.s1.title": "Real-time game engines & high-load platforms",
+  "exp.s1.text":
+    "Where I am now: core engineering on a next-generation HTML5 slot-game engine for a leading iGaming operator — a 60+ package TypeScript monorepo on Phaser, with the spin lifecycle modeled as XState statecharts and animation driven by GSAP and Spine. In parallel: high-load React CRM and analytics platforms, Node.js / NestJS microservices, and AI agent tooling (Claude) for auditing game math and modeling financial-news causality. Domain: regulated real-money gaming, high concurrency, certification. Several projects from this period are under NDA and can't be named.",
 
-  "exp.htmlacademy.role": "React Mentor — HTML Academy",
-  "exp.htmlacademy.period": "Sep 2020 – Feb 2022",
-  "exp.htmlacademy.text":
-    "Mentored students through “React: Complex Client Applications” — React, Redux, Reselect, testing and Webpack.",
+  "exp.s2.period": "2019 — 2021",
+  "exp.s2.title": "Fintech & SaaS, full-stack",
+  "exp.s2.text":
+    "Deepened into product engineering across high-trust domains. On signNow I worked full-stack on an e-signature SaaS — React / Redux over Node.js / HapiJS service aggregation. For Alfa-Bank's online-banking platform for entrepreneurs I built a multilingual, reliability-first React frontend. In parallel I mentored other engineers through an advanced React client-applications course. Domain: e-signature workflows, online banking, secure document handling.",
 
-  "exp.signnow.role": "Full-stack Developer — signNow (airSlate)",
-  "exp.signnow.period": "Mar 2020 – Sep 2021",
-  "exp.signnow.text":
-    "Electronic-signature product. Frontend plus API service aggregation and backend request handling on Node.js / HapiJS, React / Redux, Docker.",
+  "exp.s3.period": "2018 — 2019",
+  "exp.s3.title": "Cross-platform product engineering",
+  "exp.s3.text":
+    "Stretched across web and mobile: SSR React e-commerce frontends over queue-backed PHP back-ends, an internal ERP, a React Native driver app, and an iOS / Android video Q&A app on Apollo / GraphQL. Domain: e-commerce, mobile, GraphQL APIs — and learning to ship one product to many platforms.",
 
-  "exp.luxoft.role": "Frontend Developer — Luxoft",
-  "exp.luxoft.period": "Jul 2019 – Mar 2020",
-  "exp.luxoft.text":
-    "Online-banking platform for entrepreneurs at a major bank. React, Redux, Recompose, Reselect, i18next — multilingual and reliability-first.",
-
-  "exp.leboutique.role": "Full-stack Developer — LeBoutique",
-  "exp.leboutique.period": "Dec 2018 – Jul 2019",
-  "exp.leboutique.text":
-    "E-commerce platform with an SSR React frontend and a PHP / Symfony backend behind NGINX, Redis, RabbitMQ and Elasticsearch.",
-
-  "exp.updg.role": "Frontend & Mobile Developer — UPDG",
-  "exp.updg.period": "Aug 2018 – Jul 2019",
-  "exp.updg.text":
-    "Shipped an internal ERP for a US retail chain (React, Apollo/GraphQL, Recharts), a React Native driver app, and an iOS/Android video Q&A app.",
-
-  "exp.bvblogic.role": "Full-stack Developer — bvblogic",
-  "exp.bvblogic.period": "Feb 2016 – Jul 2018",
-  "exp.bvblogic.text":
-    "Worked on one of Ukraine's larger e-commerce shops — PHP / Yii, Redis, MySQL, Elasticsearch, jQuery.",
+  "exp.s4.period": "2016 — 2018",
+  "exp.s4.title": "Foundations in large-scale e-commerce",
+  "exp.s4.text":
+    "Where I cut my teeth: full-stack work on MOYO, one of Ukraine's larger e-commerce platforms — PHP / Yii, Redis, MySQL and Elasticsearch under real traffic. This is where high-load thinking, caching and search-at-scale became second nature. Plus other client projects I can't disclose.",
 
   // ---- Work ----
   "work.title": "Work — Novacode Tech",
@@ -374,40 +359,25 @@ export const sk: Record<TKey, string> = {
 
   "expertise.timeline.title": "Skúsenosti",
 
-  "exp.playson.role": "Full-stack & Game Developer — iGaming (súčasnosť)",
-  "exp.playson.period": "sep 2021 – súčasnosť",
-  "exp.playson.text":
-    "Staviam výkonné systémy pre poprednú iGaming spoločnosť. Tri CRM a analytické platformy pre promo mechaniky, real-time prehľady a B2B partnerov (React 18). Node.js / NestJS mikroslužby s validáciou kontraktov z dediteľných JSON schém. Hlavný vývojár novej generácie slot enginu — 60+ balíkové Nx monorepo na Phaser so spin životným cyklom v XState — plus in-browser vývojárske nástroje, s ktorými tím dodáva.",
+  "exp.s1.period": "2021 — súčasnosť",
+  "exp.s1.title": "Real-time herné enginy a výkonné platformy",
+  "exp.s1.text":
+    "Kde som teraz: hlavný vývoj na HTML5 slot engine novej generácie pre poprednú iGaming spoločnosť — 60+ balíkové TypeScript monorepo na Phaser, so spin životným cyklom v XState a animáciou cez GSAP a Spine. Súbežne: výkonné React CRM a analytické platformy, Node.js / NestJS mikroslužby a AI agentné nástroje (Claude) na audit hernej matematiky a modelovanie príčinnosti vo finančných správach. Doména: regulované real-money gaming, vysoká súbežnosť, certifikácia. Viaceré projekty z tohto obdobia sú pod NDA a nemôžem ich menovať.",
 
-  "exp.htmlacademy.role": "React Mentor — HTML Academy",
-  "exp.htmlacademy.period": "sep 2020 – feb 2022",
-  "exp.htmlacademy.text":
-    "Mentoring študentov v kurze „React: Komplexné klientske aplikácie“ — React, Redux, Reselect, testovanie a Webpack.",
+  "exp.s2.period": "2019 — 2021",
+  "exp.s2.title": "Fintech a SaaS, full-stack",
+  "exp.s2.text":
+    "Prehĺbenie do produktového inžinierstva v náročných, dôveryhodných doménach. Na signNow som robil full-stack na SaaS pre elektronický podpis — React / Redux nad agregáciou služieb na Node.js / HapiJS. Pre online-banking platformu Alfa-Bank pre podnikateľov som postavil viacjazyčný, na spoľahlivosť zameraný React frontend. Súbežne som mentoroval ďalších inžinierov v pokročilom kurze React klientskych aplikácií. Doména: workflow elektronického podpisu, internetbanking, bezpečná práca s dokumentmi.",
 
-  "exp.signnow.role": "Full-stack Developer — signNow (airSlate)",
-  "exp.signnow.period": "mar 2020 – sep 2021",
-  "exp.signnow.text":
-    "Produkt elektronického podpisu. Frontend plus agregácia API služieb a spracovanie backendových requestov na Node.js / HapiJS, React / Redux, Docker.",
+  "exp.s3.period": "2018 — 2019",
+  "exp.s3.title": "Multiplatformové produktové inžinierstvo",
+  "exp.s3.text":
+    "Záber cez web aj mobil: SSR React e-commerce frontendy nad PHP backendmi s frontami, interný ERP, React Native aplikácia pre vodičov a iOS / Android video Q&A aplikácia na Apollo / GraphQL. Doména: e-commerce, mobil, GraphQL API — a učenie sa dodávať jeden produkt na viaceré platformy.",
 
-  "exp.luxoft.role": "Frontend Developer — Luxoft",
-  "exp.luxoft.period": "júl 2019 – mar 2020",
-  "exp.luxoft.text":
-    "Internetbanking pre podnikateľov vo veľkej banke. React, Redux, Recompose, Reselect, i18next — viacjazyčný a postavený na spoľahlivosti.",
-
-  "exp.leboutique.role": "Full-stack Developer — LeBoutique",
-  "exp.leboutique.period": "dec 2018 – júl 2019",
-  "exp.leboutique.text":
-    "E-commerce platforma so SSR React frontendom a PHP / Symfony backendom za NGINX, Redisom, RabbitMQ a Elasticsearchom.",
-
-  "exp.updg.role": "Frontend & Mobile Developer — UPDG",
-  "exp.updg.period": "aug 2018 – júl 2019",
-  "exp.updg.text":
-    "Dodaný interný ERP pre americký retailový reťazec (React, Apollo/GraphQL, Recharts), React Native aplikácia pre vodičov a iOS/Android video Q&A aplikácia.",
-
-  "exp.bvblogic.role": "Full-stack Developer — bvblogic",
-  "exp.bvblogic.period": "feb 2016 – júl 2018",
-  "exp.bvblogic.text":
-    "Práca na jednom z väčších e-shopov na Ukrajine — PHP / Yii, Redis, MySQL, Elasticsearch, jQuery.",
+  "exp.s4.period": "2016 — 2018",
+  "exp.s4.title": "Základy vo veľkom e-commerce",
+  "exp.s4.text":
+    "Kde som sa zocelil: full-stack práca na MOYO, jednom z väčších e-commerce na Ukrajine — PHP / Yii, Redis, MySQL a Elasticsearch pod reálnou prevádzkou. Tu sa myslenie na high-load, caching a vyhľadávanie v škále stalo samozrejmosťou. Plus ďalšie klientske projekty, ktoré nemôžem zverejniť.",
 
   // ---- Work ----
   "work.title": "Projekty — Novacode Tech",

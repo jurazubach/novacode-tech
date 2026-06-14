@@ -14,14 +14,11 @@ const STACK: { name: TKey; list: TKey }[] = [
   { name: "expertise.stack.tooling", list: "expertise.stack.toolingList" },
 ];
 
-const TIMELINE: { period: TKey; role: TKey; text: TKey }[] = [
-  { period: "exp.playson.period", role: "exp.playson.role", text: "exp.playson.text" },
-  { period: "exp.htmlacademy.period", role: "exp.htmlacademy.role", text: "exp.htmlacademy.text" },
-  { period: "exp.signnow.period", role: "exp.signnow.role", text: "exp.signnow.text" },
-  { period: "exp.luxoft.period", role: "exp.luxoft.role", text: "exp.luxoft.text" },
-  { period: "exp.leboutique.period", role: "exp.leboutique.role", text: "exp.leboutique.text" },
-  { period: "exp.updg.period", role: "exp.updg.role", text: "exp.updg.text" },
-  { period: "exp.bvblogic.period", role: "exp.bvblogic.role", text: "exp.bvblogic.text" },
+const TIMELINE: { period: TKey; title: TKey; text: TKey }[] = [
+  { period: "exp.s1.period", title: "exp.s1.title", text: "exp.s1.text" },
+  { period: "exp.s2.period", title: "exp.s2.title", text: "exp.s2.text" },
+  { period: "exp.s3.period", title: "exp.s3.title", text: "exp.s3.text" },
+  { period: "exp.s4.period", title: "exp.s4.title", text: "exp.s4.text" },
 ];
 
 export function Expertise() {
@@ -74,9 +71,9 @@ export function Expertise() {
           </Reveal>
           <div className="timeline">
             {TIMELINE.map((item) => (
-              <Reveal className="tl-item" key={item.role}>
+              <Reveal className="tl-item" key={item.title}>
                 <div className="period">{t(item.period)}</div>
-                <div className="role">{t(item.role)}</div>
+                <div className="role">{t(item.title)}</div>
                 <p>{t(item.text)}</p>
               </Reveal>
             ))}
