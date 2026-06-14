@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, t
 import { dict, type Lang, type TKey } from "./dict";
 
 const STORAGE_KEY = "novacode-lang";
-const SUPPORTED: Lang[] = ["en", "sk"];
+const SUPPORTED: Lang[] = ["en", "sk", "uk"];
 
 interface I18nValue {
   lang: Lang;

@@ -8,10 +8,7 @@ import type { TKey } from "../i18n/dict";
 const STATS: { num: string; label: TKey }[] = [
   { num: "~10", label: "home.stats.experience" },
   { num: "5+", label: "home.stats.industries" },
-  { num: "60+", label: "home.stats.packages" },
-  { num: "100M", label: "home.stats.simulation" },
-  { num: "30+", label: "home.stats.sources" },
-  { num: "17+", label: "home.stats.markets" },
+  { num: "8", label: "home.stats.products" },
 ];
 
 interface ServiceCard {

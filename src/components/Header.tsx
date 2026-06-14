@@ -1,13 +1,19 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useI18n } from "../i18n/I18nContext";
-import type { TKey } from "../i18n/dict";
+import type { Lang, TKey } from "../i18n/dict";
 
 const LINKS: { to: string; key: TKey }[] = [
   { to: "/", key: "nav.home" },
   { to: "/expertise", key: "nav.expertise" },
   { to: "/work", key: "nav.work" },
   { to: "/contact", key: "nav.contact" },
+];
+
+const LANGS: { code: Lang; label: string }[] = [
+  { code: "en", label: "EN" },
+  { code: "sk", label: "SK" },
+  { code: "uk", label: "UK" },
 ];
 
 export function Header() {
@@ -37,12 +43,11 @@ export function Header() {
             </NavLink>
           ))}
           <div className="lang" role="group" aria-label="Language">
-            <button type="button" aria-pressed={lang === "en"} onClick={() => setLang("en")}>
-              EN
-            </button>
-            <button type="button" aria-pressed={lang === "sk"} onClick={() => setLang("sk")}>
-              SK
-            </button>
+            {LANGS.map((l) => (
+              <button key={l.code} type="button" aria-pressed={lang === l.code} onClick={() => setLang(l.code)}>
+                {l.label}
+              </button>
+            ))}
           </div>
         </div>
 
