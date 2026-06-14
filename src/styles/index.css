@@ -345,7 +345,7 @@ h3 { font-size: 1.18rem; font-weight: 700; }
 /* ---- Responsive ---- */
 @media (max-width: 880px) {
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
-  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stats { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .stack-grid { grid-template-columns: 1fr; }
 }
@@ -372,6 +372,6 @@ h3 { font-size: 1.18rem; font-weight: 700; }
   .lang { margin: 8px 0 0; align-self: flex-start; }
   .nav-toggle { display: inline-flex; margin-left: auto; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
-  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stats { grid-template-columns: 1fr; }
   .cta { padding: 36px 22px; }
 }
