@@ -11,7 +11,7 @@ const ORG = {
   url: SITE_URL,
   logo: `${SITE_URL}/favicon.svg`,
   description:
-    "Boutique software studio building high-load web platforms, HTML5 game engines, backend services, and AI tooling.",
+    "Software studio working in iGaming — high-load web platforms, HTML5 game clients, backend services, and AI tooling.",
   foundingDate: "2025-04-09",
   founder: { "@type": "Person", name: "Yurii Zubach" },
   address: {

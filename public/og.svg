@@ -17,7 +17,7 @@
     High-load web platforms
   </text>
   <text x="76" y="420" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800" fill="url(#g)">
-    &amp; the game engine.
+    &amp; the game client.
   </text>
   <text x="80" y="540" font-family="'Courier New', monospace" font-size="30" fill="#9a9aa2">
     React · Node.js · Phaser · XState · AI tooling
