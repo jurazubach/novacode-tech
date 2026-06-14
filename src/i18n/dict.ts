@@ -24,9 +24,11 @@ export const en = {
   "home.hero.note": "Move your mouse to stir the background · click to ripple",
 
   "home.stats.experience": "years shipping production software",
-  "home.stats.markets": "regulated markets in production",
+  "home.stats.industries": "industries delivered in",
   "home.stats.packages": "package game-engine monorepo",
-  "home.stats.crm": "CRM & analytics platforms built",
+  "home.stats.simulation": "spins per Monte-Carlo run",
+  "home.stats.sources": "live data sources fused into signals",
+  "home.stats.markets": "regulated markets in production",
 
   "home.what.kicker": "What we do",
   "home.what.title": "One engineer across the whole stack.",
@@ -230,9 +232,11 @@ export const sk: Record<TKey, string> = {
   "home.hero.note": "Pohnite myšou a rozvírte pozadie · kliknutím vytvoríte vlnu",
 
   "home.stats.experience": "rokov dodávania produkčného softvéru",
-  "home.stats.markets": "regulovaných trhov v produkcii",
+  "home.stats.industries": "odvetví, v ktorých som dodával",
   "home.stats.packages": "balíkov v hernom engine monorepe",
-  "home.stats.crm": "CRM a analytické platformy",
+  "home.stats.simulation": "spinov na jeden Monte-Carlo beh",
+  "home.stats.sources": "živých zdrojov dát spojených do signálov",
+  "home.stats.markets": "regulovaných trhov v produkcii",
 
   "home.what.kicker": "Čo robíme",
   "home.what.title": "Jeden inžinier naprieč celým stackom.",
