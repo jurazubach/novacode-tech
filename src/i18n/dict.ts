@@ -20,7 +20,7 @@ export const en = {
   "home.hero.kicker": "Novacode Tech s.r.o. · Bratislava, Slovakia",
   "home.hero.title": "High-load web platforms and the game engine behind them.",
   "home.hero.lead":
-    "Novacode Tech is a boutique software studio. We build production systems end-to-end — React frontends that stay fast under load, Node.js and PHP services behind them, and real-time HTML5 game engines running in regulated markets. Ten years of shipping, not slides.",
+    "Novacode Tech is a software studio working in iGaming. We build production systems end to end — React frontends that hold up under load, Node.js and PHP services behind them, and real-time HTML5 game engines for regulated markets. We work inside product teams and move things forward together.",
   "home.hero.note": "Move your mouse to stir the background · click to ripple",
 
   "home.stats.experience": "years shipping production software",
@@ -28,17 +28,17 @@ export const en = {
   "home.stats.products": "products & platforms shipped",
 
   "home.what.kicker": "What we do",
-  "home.what.title": "One engineer across the whole stack.",
+  "home.what.title": "Across the whole stack, and across teams.",
   "home.what.lead":
-    "A better game developer than most platform engineers, and a better platform engineer than most game developers — so the frontend, the services behind it, and the engine that renders it all come from one place.",
+    "We're as comfortable in a React dashboard as in the Node or PHP service behind it and the game engine that renders the result. We join product teams, carry ideas from prototype to release, and care about the process as much as the code.",
 
   "home.cta.title": "Have a platform or a game to build?",
-  "home.cta.text": "Tell me what you're working on — I reply fast.",
+  "home.cta.text": "Tell us what you're working on — we reply fast.",
 
   // ---- What we build (services detail, shown on Home) ----
   "services.s1.title": "High-load web platforms",
   "services.s1.text":
-    "Business-critical applications where performance and correctness are the requirement, not a nice-to-have.",
+    "Business-critical applications where performance and correctness are hard requirements.",
   "services.s1.li1": "CRM & promo-management systems (tournaments, races, free spins, prize mechanics)",
   "services.s1.li2": "Real-time analytics dashboards for commercial and technical teams",
   "services.s1.li3": "B2B partner portals with client performance tracking",
@@ -61,7 +61,7 @@ export const en = {
 
   "services.s4.title": "AI tooling & automation",
   "services.s4.text":
-    "LLM agents pointed at real engineering problems — not chatbots, but pipelines that produce verifiable output.",
+    "LLM agents aimed at real engineering work — pipelines with verifiable output that plug into the team's workflow.",
   "services.s4.li1": "Multi-agent Claude pipelines (Opus / Sonnet) with tool use",
   "services.s4.li2": "Domain analysis, code review and codegen automation",
   "services.s4.li3": "Cost-tracked, resumable, reproducible agent runs",
@@ -77,7 +77,7 @@ export const en = {
   "services.s6.title": "Mobile & mentoring",
   "services.s6.text": "Cross-platform mobile on the same React foundations, plus senior mentoring and reviews.",
   "services.s6.li1": "React Native for iOS & Android (camera, video, GraphQL)",
-  "services.s6.li2": "Former React mentor at HTML Academy",
+  "services.s6.li2": "Mentored 10+ React engineers to course completion (HTML Academy)",
   "services.s6.li3": "Architecture reviews & frontend performance audits",
 
   // ---- Expertise / About ----
@@ -85,17 +85,28 @@ export const en = {
   "expertise.hero.kicker": "About & expertise",
   "expertise.hero.title": "A decade across frontend, backend and game engines.",
   "expertise.hero.lead":
-    "Novacode Tech is founded and run by Yurii Zubach — a hands-on full-stack & game developer currently building a real-time game engine for a leading iGaming provider.",
+    "Novacode Tech is the studio of Yurii Zubach — a full-stack and game developer building high-load platforms and a real-time game engine for the iGaming industry.",
 
   "about.title": "About",
   "about.p1":
-    "I'm Yurii Zubach — a hands-on full-stack and game developer, and the person behind Novacode Tech. I've spent about ten years shipping production software: high-load React frontends, Node.js and PHP backends, and, for the last three years, a real-time game engine running in regulated markets.",
+    "Novacode Tech is the studio of Yurii Zubach — a full-stack and game developer with about ten years of shipping production software. The last four have been in iGaming: high-load React platforms, Node.js and PHP services, and a real-time HTML5 game engine for regulated markets.",
   "about.p2":
-    "I like the seam between two worlds that rarely overlap. I'm a better game developer than most platform engineers, and a better platform engineer than most game developers — so I'm equally at home writing the statechart that drives a slot spin in the morning and the service that validates its contracts in the afternoon.",
+    "We work close to the team, day to day — with product managers, designers, game mathematicians, QA and other engineering teams. We collaborate in English and Slovak (AI-assisted) and natively in Ukrainian and Russian.",
   "about.p3":
-    "In practice that has meant: three CRM and analytics platforms for live promotional mechanics; an ERP for a US retail chain; full e-commerce platforms and an online-banking frontend for a major bank; backends in Node.js and PHP; and core engineering on a 60+ package game-engine monorepo. Lately a lot of my time goes into AI tooling — Claude-driven agents that do real work, from auditing game math to building causal models of financial news.",
+    "Ownership is what drives us. When we spot a problem, we dig in, build a proof of concept to test the idea, then bring it to colleagues and make the case for taking it further together. A lot of what we're proud of started exactly there — from AI tooling for game math to web platforms that grew into systems teams rely on every day.",
   "about.p4":
-    "Novacode is a one-person studio on purpose. You work directly with the engineer making the decisions, not a layer above them. If you've got something hard to build, I'd like to hear about it.",
+    "Good products come from people and process — communication, shared ownership, steady iteration. We build the team and the momentum around an idea as much as we build the code. If you have something hard to build, we'd like to hear about it.",
+
+  "howwework.title": "How we work",
+  "howwework.v1.title": "Ownership, end to end",
+  "howwework.v1.text":
+    "We find the problem, prototype the fix, and carry the idea through with the team — from proof of concept to production.",
+  "howwework.v2.title": "Built with teams",
+  "howwework.v2.text":
+    "We work inside product teams and across them — product, design, math, QA and backend — because that's how real products ship.",
+  "howwework.v3.title": "Craft that lasts",
+  "howwework.v3.text":
+    "We're proud of platforms still in daily use years on, tooling other engineers pick up, and code that stays calm to maintain.",
 
   "expertise.stack.title": "Core stack",
   "expertise.stack.frontend": "Frontend",
@@ -116,42 +127,42 @@ export const en = {
   "exp.s1.period": "2021 — present",
   "exp.s1.title": "Real-time game engines & high-load platforms",
   "exp.s1.text":
-    "Where I am now: core engineering on a next-generation HTML5 slot-game engine for a leading iGaming operator — a 60+ package TypeScript monorepo on Phaser, with the spin lifecycle modeled as XState statecharts and animation driven by GSAP and Spine. In parallel: high-load React CRM and analytics platforms, Node.js / NestJS microservices, and AI agent tooling (Claude) for auditing game math and modeling financial-news causality. Domain: regulated real-money gaming, high concurrency, certification. Several projects from this period are under NDA and can't be named.",
+    "Where we are now: core engineering on a next-generation HTML5 slot-game engine for the iGaming industry — a 60+ package TypeScript monorepo on Phaser, with the spin lifecycle modeled as XState statecharts and animation driven by GSAP and Spine. Alongside it: high-load React CRM and analytics platforms, Node.js / NestJS microservices, and AI agent tooling (Claude) for game math and for modeling causality in financial news. Domain: regulated real-money gaming, high concurrency, certification. Some work from this period is under NDA.",
 
   "exp.s2.period": "2019 — 2021",
   "exp.s2.title": "Fintech & SaaS, full-stack",
   "exp.s2.text":
-    "Deepened into product engineering across high-trust domains. On signNow I worked full-stack on an e-signature SaaS — React / Redux over Node.js / HapiJS service aggregation. For Alfa-Bank's online-banking platform for entrepreneurs I built a multilingual, reliability-first React frontend. In parallel I mentored other engineers through an advanced React client-applications course. Domain: e-signature workflows, online banking, secure document handling.",
+    "Product engineering across high-trust domains. On signNow we worked full-stack on an e-signature SaaS — React / Redux over Node.js / HapiJS service aggregation. For Alfa-Bank's online-banking platform for entrepreneurs we built a multilingual, reliability-first React frontend. In parallel we mentored engineers through an advanced React client-applications course. Domain: e-signature workflows, online banking, secure document handling.",
 
   "exp.s3.period": "2018 — 2019",
   "exp.s3.title": "Cross-platform product engineering",
   "exp.s3.text":
-    "Stretched across web and mobile: SSR React e-commerce frontends over queue-backed PHP back-ends, an internal ERP, a React Native driver app, and an iOS / Android video Q&A app on Apollo / GraphQL. Domain: e-commerce, mobile, GraphQL APIs — and learning to ship one product to many platforms.",
+    "Web and mobile in parallel: SSR React e-commerce frontends over queue-backed PHP back-ends, an internal ERP, a React Native driver app, and an iOS / Android video Q&A app on Apollo / GraphQL. Domain: e-commerce, mobile, GraphQL APIs, and shipping one product to many platforms.",
 
   "exp.s4.period": "2016 — 2018",
   "exp.s4.title": "Foundations in large-scale e-commerce",
   "exp.s4.text":
-    "Where I cut my teeth: full-stack work on MOYO, one of Ukraine's larger e-commerce platforms — PHP / Yii, Redis, MySQL and Elasticsearch under real traffic. This is where high-load thinking, caching and search-at-scale became second nature. Plus other client projects I can't disclose.",
+    "Where we cut our teeth: full-stack work on MOYO, one of Ukraine's larger e-commerce platforms — PHP / Yii, Redis, MySQL and Elasticsearch under real traffic. High-load thinking, caching and search at scale became second nature here, alongside other client projects under NDA.",
 
   // ---- Work ----
   "work.title": "Work — Novacode Tech",
   "work.hero.kicker": "Selected work",
   "work.hero.title": "Things we've built.",
   "work.hero.lead":
-    "Three projects I'm proud of, described in enough detail to be real. Client-specific mechanics stay confidential — the architecture doesn't.",
+    "Three projects we're proud of, described in enough detail to be real. Client-specific mechanics stay confidential; the architecture doesn't.",
 
   "work.flagship.title": "Flagship projects",
 
   "work.f1.tag": "iGaming · Game engine · 3 years",
   "work.f1.title": "Next-generation slot-game engine",
   "work.f1.text":
-    "Core engineer on a next-gen slot engine for a leading iGaming operator — three years and counting. It's a 60+ package Nx / TypeScript monorepo on Phaser, where the entire spin lifecycle is modeled as a three-level XState statechart hierarchy: deterministic, free of race conditions, and recoverable mid-session — which is exactly what a regulated game has to guarantee. Animation lives in a fluent GSAP timeline layer that unifies tweens, Spine skeletal animation and component state in one declarative API. I also built the in-browser debug tooling — live statechart inspection, GSAP timeline scrubbing, prefab-pool memory profiling — that the whole team uses to ship new titles.",
+    "We work at the core of a next-generation slot engine for the iGaming industry — three years and counting. It's a 60+ package Nx / TypeScript monorepo on Phaser, where the whole spin lifecycle is modeled as a three-level XState statechart hierarchy: deterministic, free of race conditions, and recoverable mid-session, which is what a regulated game has to guarantee. Animation runs through a fluent GSAP timeline layer that unifies tweens, Spine skeletal animation and component state in one declarative API. We also built the in-browser debug tooling — live statechart inspection, GSAP timeline scrubbing, prefab-pool memory profiling — that the whole team uses to ship new titles.",
   "work.f1.stack": "Phaser 3 · XState 5 · GSAP · Spine · Nx · Rspack · TypeScript",
 
   "work.f2.tag": "iGaming · AI tooling",
   "work.f2.title": "AI copilot for game mathematicians",
   "work.f2.text":
-    "A TypeScript CLI — with a React/Ink terminal UI — that wraps the entire slot-math workflow: scaffold a model, run Monte Carlo simulations of up to 100M spins across worker threads, and analyze RTP, volatility and hit-frequency. The part I'm proudest of is the agent layer: chained Claude (Opus / Sonnet) pipelines that reverse-engineer an existing game's RTP budget into reusable, documented “skills”, then audit new math against 60+ correctness and compliance checks. It turns a multi-day manual certification review into a repeatable, resumable, cost-tracked pipeline.",
+    "A TypeScript CLI with a React/Ink terminal UI that wraps the whole slot-math workflow: scaffold a model, run Monte Carlo simulations of up to 100M spins across worker threads, and analyze RTP, volatility and hit-frequency. The agent layer is what we're proudest of — chained Claude (Opus / Sonnet) pipelines and a library of 60+ reusable skills that capture how our existing games are built and feed that back to steer new math. It turns a multi-day manual certification review into a repeatable, resumable, cost-tracked pipeline.",
   "work.f2.stack": "TypeScript · Claude (Opus/Sonnet) · Ink · Monte Carlo · Node.js worker threads",
 
   "work.f3.tag": "R&D · Markets intelligence",
@@ -184,11 +195,11 @@ export const en = {
   "contact.title": "Contact — Novacode Tech",
   "contact.hero.kicker": "Contact",
   "contact.hero.title": "Let's build something.",
-  "contact.hero.lead": "Tell me about your platform, game or hard frontend problem. I reply quickly.",
+  "contact.hero.lead": "Tell us about your platform, game or hard frontend problem. We reply quickly.",
   "contact.email.label": "Email",
   "contact.linkedin.label": "LinkedIn",
   "contact.telegram.label": "Telegram",
-  "contact.button": "Write me an email",
+  "contact.button": "Write us an email",
 
   "contact.company.title": "Company details",
   "contact.company.name": "Legal name",
@@ -225,7 +236,7 @@ export const sk: Record<TKey, string> = {
   "home.hero.kicker": "Novacode Tech s.r.o. · Bratislava, Slovensko",
   "home.hero.title": "Výkonné webové platformy a herný engine, ktorý ich poháňa.",
   "home.hero.lead":
-    "Novacode Tech je butikové softvérové štúdio. Staviame produkčné systémy od začiatku do konca — React frontendy, ktoré zostanú rýchle pod záťažou, Node.js a PHP služby za nimi a real-time HTML5 herné enginy bežiace na regulovaných trhoch. Desať rokov reálne dodaného softvéru, nie slidov.",
+    "Novacode Tech je softvérové štúdio pôsobiace v iGamingu. Staviame produkčné systémy od začiatku do konca — React frontendy, ktoré vydržia záťaž, Node.js a PHP služby za nimi a real-time HTML5 herné enginy pre regulované trhy. Pracujeme vnútri produktových tímov a posúvame veci dopredu spoločne.",
   "home.hero.note": "Pohnite myšou a rozvírte pozadie · kliknutím vytvoríte vlnu",
 
   "home.stats.experience": "rokov dodávania produkčného softvéru",
@@ -233,16 +244,16 @@ export const sk: Record<TKey, string> = {
   "home.stats.products": "dodaných produktov a platforiem",
 
   "home.what.kicker": "Čo robíme",
-  "home.what.title": "Jeden inžinier naprieč celým stackom.",
+  "home.what.title": "Naprieč celým stackom aj naprieč tímami.",
   "home.what.lead":
-    "Lepší game developer než väčšina platform inžinierov a lepší platform inžinier než väčšina game developerov — takže frontend, služby za ním aj engine, ktorý to vykresľuje, prichádzajú z jedného miesta.",
+    "Rovnako sme doma v React dashboarde ako v Node či PHP službe za ním a v hernom engine, ktorý výsledok vykresľuje. Pripájame sa k produktovým tímom, vedieme nápady od prototypu po release a na procese nám záleží rovnako ako na kóde.",
 
   "home.cta.title": "Máte platformu alebo hru na realizáciu?",
-  "home.cta.text": "Napíšte mi, na čom pracujete — odpovedám rýchlo.",
+  "home.cta.text": "Napíšte nám, na čom pracujete — odpovedáme rýchlo.",
 
   // ---- What we build (services detail, shown on Home) ----
   "services.s1.title": "Výkonné webové platformy",
-  "services.s1.text": "Biznisovo kritické aplikácie, kde sú výkon a správnosť požiadavkou, nie bonusom.",
+  "services.s1.text": "Biznisovo kritické aplikácie, kde sú výkon a správnosť tvrdou požiadavkou.",
   "services.s1.li1": "CRM a promo systémy (turnaje, races, free spins, výherné mechaniky)",
   "services.s1.li2": "Real-time analytické dashboardy pre obchodné a technické tímy",
   "services.s1.li3": "B2B partnerské portály so sledovaním výkonu klientov",
@@ -265,7 +276,7 @@ export const sk: Record<TKey, string> = {
 
   "services.s4.title": "AI nástroje a automatizácia",
   "services.s4.text":
-    "LLM agenti namierení na skutočné inžinierske problémy — nie chatboty, ale pipeline s overiteľným výstupom.",
+    "LLM agenti zameraní na skutočnú inžiniersku prácu — pipeline s overiteľným výstupom, ktoré zapadnú do workflow tímu.",
   "services.s4.li1": "Multi-agentné Claude pipeline (Opus / Sonnet) s tool use",
   "services.s4.li2": "Doménová analýza, code review a automatizácia codegenu",
   "services.s4.li3": "Spustenia agentov so sledovaním nákladov, obnoviteľné a reprodukovateľné",
@@ -281,7 +292,7 @@ export const sk: Record<TKey, string> = {
   "services.s6.title": "Mobil a mentoring",
   "services.s6.text": "Multiplatformový mobil na rovnakých React základoch, plus senior mentoring a revízie.",
   "services.s6.li1": "React Native pre iOS a Android (kamera, video, GraphQL)",
-  "services.s6.li2": "Bývalý React mentor v HTML Academy",
+  "services.s6.li2": "Mentoring 10+ React inžinierov do ukončenia kurzu (HTML Academy)",
   "services.s6.li3": "Revízie architektúry a audity frontendového výkonu",
 
   // ---- Expertise / About ----
@@ -289,17 +300,28 @@ export const sk: Record<TKey, string> = {
   "expertise.hero.kicker": "O nás a expertíza",
   "expertise.hero.title": "Dekáda naprieč frontendom, backendom a hernými enginmi.",
   "expertise.hero.lead":
-    "Novacode Tech založil a vedie Yurii Zubach — full-stack a game developer, ktorý práve stavia real-time herný engine pre poprednú iGaming spoločnosť.",
+    "Novacode Tech je štúdio Yuriia Zubacha — full-stack a game developera, ktorý stavia výkonné platformy a real-time herný engine pre odvetvie iGamingu.",
 
-  "about.title": "O mne",
+  "about.title": "O nás",
   "about.p1":
-    "Som Yurii Zubach — full-stack a game developer, ktorý sám píše kód, a človek za štúdiom Novacode Tech. Posledných desať rokov dodávam produkčný softvér: výkonné React frontendy, Node.js a PHP backendy a posledné tri roky real-time herný engine bežiaci na regulovaných trhoch.",
+    "Novacode Tech je štúdio Yuriia Zubacha — full-stack a game developera s približne desiatimi rokmi dodávania produkčného softvéru. Posledné štyri boli v iGamingu: výkonné React platformy, Node.js a PHP služby a real-time HTML5 herný engine pre regulované trhy.",
   "about.p2":
-    "Mám rád šev medzi dvoma svetmi, ktoré sa málokedy prekrývajú. Som lepší game developer než väčšina platform inžinierov a lepší platform inžinier než väčšina game developerov — takže mi ráno nerobí problém napísať stavový automat poháňajúci spin a popoludní službu, ktorá validuje jeho kontrakty.",
+    "Pracujeme blízko tímu, deň čo deň — s produktovými manažérmi, dizajnérmi, hernými matematikmi, QA a ďalšími inžinierskymi tímami. Komunikujeme po anglicky a slovensky (s pomocou AI) a natívne po ukrajinsky a rusky.",
   "about.p3":
-    "V praxi to znamenalo: tri CRM a analytické platformy pre živé promo mechaniky; ERP pre americký retailový reťazec; celé e-commerce platformy a frontend internetbankingu pre veľkú banku; backendy v Node.js a PHP; a hlavný vývoj na hernom engine monorepe so 60+ balíkmi. V poslednom čase venujem veľa času AI nástrojom — agentom poháňaným Claude, ktorí robia skutočnú prácu, od auditu hernej matematiky po budovanie príčinných modelov finančných správ.",
+    "Ženie nás ownership. Keď narazíme na problém, ponoríme sa doň, postavíme proof of concept na overenie nápadu a potom ho prinesieme kolegom a presvedčíme ich posunúť to ďalej spoločne. Veľa z toho, na čo sme hrdí, začalo presne tam — od AI nástrojov pre hernú matematiku po webové platformy, ktoré vyrástli do systémov, na ktoré sa tímy denne spoliehajú.",
   "about.p4":
-    "Novacode je zámerne jednočlenné štúdio. Pracujete priamo s inžinierom, ktorý robí rozhodnutia, nie s vrstvou nad ním. Ak máte niečo náročné na realizáciu, rád si to vypočujem.",
+    "Dobré produkty vznikajú z ľudí a procesu — komunikácie, zdieľaného ownershipu, stálej iterácie. Okolo nápadu budujeme tím a ťah rovnako ako samotný kód. Ak máte niečo náročné na realizáciu, radi si to vypočujeme.",
+
+  "howwework.title": "Ako pracujeme",
+  "howwework.v1.title": "Ownership od začiatku do konca",
+  "howwework.v1.text":
+    "Nájdeme problém, naprototypujeme riešenie a prevedieme nápad s tímom — od proof of concept po produkciu.",
+  "howwework.v2.title": "Budované s tímami",
+  "howwework.v2.text":
+    "Pracujeme vnútri produktových tímov aj naprieč nimi — produkt, dizajn, matematika, QA a backend — pretože tak vznikajú skutočné produkty.",
+  "howwework.v3.title": "Remeslo, ktoré vydrží",
+  "howwework.v3.text":
+    "Sme hrdí na platformy, ktoré sú v dennom používaní aj po rokoch, na nástroje, ktoré si osvoja iní inžinieri, a na kód, ktorý sa udržiava pokojne.",
 
   "expertise.stack.title": "Hlavný stack",
   "expertise.stack.frontend": "Frontend",
@@ -320,42 +342,42 @@ export const sk: Record<TKey, string> = {
   "exp.s1.period": "2021 — súčasnosť",
   "exp.s1.title": "Real-time herné enginy a výkonné platformy",
   "exp.s1.text":
-    "Kde som teraz: hlavný vývoj na HTML5 slot engine novej generácie pre poprednú iGaming spoločnosť — 60+ balíkové TypeScript monorepo na Phaser, so spin životným cyklom v XState a animáciou cez GSAP a Spine. Súbežne: výkonné React CRM a analytické platformy, Node.js / NestJS mikroslužby a AI agentné nástroje (Claude) na audit hernej matematiky a modelovanie príčinnosti vo finančných správach. Doména: regulované real-money gaming, vysoká súbežnosť, certifikácia. Viaceré projekty z tohto obdobia sú pod NDA a nemôžem ich menovať.",
+    "Kde sme teraz: kľúčový vývoj HTML5 slot enginu novej generácie pre odvetvie iGamingu — 60+ balíkové TypeScript monorepo na Phaser, kde je životný cyklus spinu modelovaný ako XState stavové automaty a animáciu poháňajú GSAP a Spine. Popri tom: výkonné React CRM a analytické platformy, Node.js / NestJS mikroslužby a AI agentné nástroje (Claude) pre hernú matematiku a modelovanie príčinnosti vo finančných správach. Doména: regulované real-money gaming, vysoká súbežnosť, certifikácia. Časť práce z tohto obdobia je pod NDA.",
 
   "exp.s2.period": "2019 — 2021",
   "exp.s2.title": "Fintech a SaaS, full-stack",
   "exp.s2.text":
-    "Prehĺbenie do produktového inžinierstva v náročných, dôveryhodných doménach. Na signNow som robil full-stack na SaaS pre elektronický podpis — React / Redux nad agregáciou služieb na Node.js / HapiJS. Pre online-banking platformu Alfa-Bank pre podnikateľov som postavil viacjazyčný, na spoľahlivosť zameraný React frontend. Súbežne som mentoroval ďalších inžinierov v pokročilom kurze React klientskych aplikácií. Doména: workflow elektronického podpisu, internetbanking, bezpečná práca s dokumentmi.",
+    "Produktové inžinierstvo v náročných, dôveryhodných doménach. Na signNow sme robili full-stack na SaaS pre elektronický podpis — React / Redux nad agregáciou služieb na Node.js / HapiJS. Pre online-banking platformu Alfa-Bank pre podnikateľov sme postavili viacjazyčný, na spoľahlivosť zameraný React frontend. Súbežne sme mentorovali inžinierov v pokročilom kurze React klientskych aplikácií. Doména: workflow elektronického podpisu, internetbanking, bezpečná práca s dokumentmi.",
 
   "exp.s3.period": "2018 — 2019",
   "exp.s3.title": "Multiplatformové produktové inžinierstvo",
   "exp.s3.text":
-    "Záber cez web aj mobil: SSR React e-commerce frontendy nad PHP backendmi s frontami, interný ERP, React Native aplikácia pre vodičov a iOS / Android video Q&A aplikácia na Apollo / GraphQL. Doména: e-commerce, mobil, GraphQL API — a učenie sa dodávať jeden produkt na viaceré platformy.",
+    "Web aj mobil súbežne: SSR React e-commerce frontendy nad PHP backendmi s frontami, interný ERP, React Native aplikácia pre vodičov a iOS / Android video Q&A aplikácia na Apollo / GraphQL. Doména: e-commerce, mobil, GraphQL API a dodávanie jedného produktu na viaceré platformy.",
 
   "exp.s4.period": "2016 — 2018",
   "exp.s4.title": "Základy vo veľkom e-commerce",
   "exp.s4.text":
-    "Kde som sa zocelil: full-stack práca na MOYO, jednom z väčších e-commerce na Ukrajine — PHP / Yii, Redis, MySQL a Elasticsearch pod reálnou prevádzkou. Tu sa myslenie na high-load, caching a vyhľadávanie v škále stalo samozrejmosťou. Plus ďalšie klientske projekty, ktoré nemôžem zverejniť.",
+    "Kde sme sa zocelili: full-stack práca na MOYO, jednom z väčších e-commerce na Ukrajine — PHP / Yii, Redis, MySQL a Elasticsearch pod reálnou prevádzkou. Myslenie na high-load, caching a vyhľadávanie v škále sa tu stalo druhou prirodzenosťou, popri ďalších klientskych projektoch pod NDA.",
 
   // ---- Work ----
   "work.title": "Projekty — Novacode Tech",
   "work.hero.kicker": "Vybrané projekty",
   "work.hero.title": "Čo sme postavili.",
   "work.hero.lead":
-    "Tri projekty, na ktoré som hrdý, opísané dosť konkrétne na to, aby boli skutočné. Mechaniky špecifické pre klienta zostávajú dôverné — architektúra nie.",
+    "Tri projekty, na ktoré sme hrdí, opísané dosť konkrétne na to, aby boli skutočné. Mechaniky špecifické pre klienta zostávajú dôverné; architektúra nie.",
 
   "work.flagship.title": "Hlavné projekty",
 
   "work.f1.tag": "iGaming · Herný engine · 3 roky",
   "work.f1.title": "Slot engine novej generácie",
   "work.f1.text":
-    "Hlavný inžinier na slot engine novej generácie pre poprednú iGaming spoločnosť — tri roky a stále pokračuje. Je to 60+ balíkové Nx / TypeScript monorepo na Phaser, kde je celý životný cyklus spinu modelovaný ako trojúrovňová hierarchia XState stavových automatov: deterministická, bez race conditions a obnoviteľná uprostred relácie — presne to, čo regulovaná hra musí garantovať. Animácia žije vo fluentnej GSAP timeline vrstve, ktorá zjednocuje tweeny, Spine kostrovú animáciu a stav komponentov do jedného deklaratívneho API. Postavil som aj in-browser nástroje na ladenie — živá inšpekcia stavových automatov, scrubbing GSAP timeline, profilovanie pamäte prefab poolu — ktoré používa celý tím pri dodávaní nových titulov.",
+    "Pracujeme v jadre slot enginu novej generácie pre odvetvie iGamingu — tri roky a stále pokračuje. Je to 60+ balíkové Nx / TypeScript monorepo na Phaser, kde je celý životný cyklus spinu modelovaný ako trojúrovňová hierarchia XState stavových automatov: deterministická, bez race conditions a obnoviteľná uprostred relácie, čo regulovaná hra musí garantovať. Animácia beží cez plynulú GSAP timeline vrstvu, ktorá zjednocuje tweeny, Spine kostrovú animáciu a stav komponentov v jednom deklaratívnom API. Postavili sme aj in-browser nástroje na ladenie — živú inšpekciu stavových automatov, scrubbing GSAP timeline, profilovanie pamäte prefab poolu — ktoré používa celý tím pri vydávaní nových titulov.",
   "work.f1.stack": "Phaser 3 · XState 5 · GSAP · Spine · Nx · Rspack · TypeScript",
 
   "work.f2.tag": "iGaming · AI nástroje",
   "work.f2.title": "AI copilot pre herných matematikov",
   "work.f2.text":
-    "TypeScript CLI — s React/Ink terminálovým UI — ktorý zastreší celý workflow slot matematiky: vytvorenie modelu, Monte Carlo simulácie až do 100M spinov naprieč worker threadmi a analýzu RTP, volatility a frekvencie výhier. Najviac som hrdý na agentnú vrstvu: zreťazené Claude (Opus / Sonnet) pipeline, ktoré spätne analyzujú RTP rozpočet existujúcej hry do znovupoužiteľných, zdokumentovaných „skills“, a potom auditujú novú matematiku oproti 60+ kontrolám správnosti a compliance. Mení to viacdňovú manuálnu certifikačnú revíziu na opakovateľnú, obnoviteľnú pipeline so sledovaním nákladov.",
+    "TypeScript CLI s terminálovým UI na React/Ink, ktoré zastreší celý workflow slot matematiky: vytvorenie modelu, Monte Carlo simulácie až do 100M spinov naprieč worker threadmi a analýzu RTP, volatility a frekvencie výhier. Najviac sme hrdí na agentnú vrstvu — zreťazené Claude (Opus / Sonnet) pipeline a knižnicu 60+ znovupoužiteľných „skills“, ktoré zachytávajú, ako sú postavené naše existujúce hry, a vracajú to späť na nasmerovanie novej matematiky. Mení to viacdňovú manuálnu certifikačnú revíziu na opakovateľnú, obnoviteľnú pipeline so sledovaním nákladov.",
   "work.f2.stack": "TypeScript · Claude (Opus/Sonnet) · Ink · Monte Carlo · Node.js worker threads",
 
   "work.f3.tag": "R&D · Trhová inteligencia",
@@ -388,11 +410,11 @@ export const sk: Record<TKey, string> = {
   "contact.title": "Kontakt — Novacode Tech",
   "contact.hero.kicker": "Kontakt",
   "contact.hero.title": "Poďme niečo postaviť.",
-  "contact.hero.lead": "Napíšte mi o svojej platforme, hre alebo náročnom frontendovom probléme. Odpovedám rýchlo.",
+  "contact.hero.lead": "Napíšte nám o svojej platforme, hre alebo náročnom frontendovom probléme. Odpovedáme rýchlo.",
   "contact.email.label": "E-mail",
   "contact.linkedin.label": "LinkedIn",
   "contact.telegram.label": "Telegram",
-  "contact.button": "Napíšte mi e-mail",
+  "contact.button": "Napíšte nám e-mail",
 
   "contact.company.title": "Údaje o spoločnosti",
   "contact.company.name": "Obchodné meno",
@@ -426,7 +448,7 @@ export const uk: Record<TKey, string> = {
   "home.hero.kicker": "Novacode Tech s.r.o. · Братислава, Словаччина",
   "home.hero.title": "Високонавантажені вебплатформи та ігровий engine за ними.",
   "home.hero.lead":
-    "Novacode Tech — це бутикова софтверна студія. Ми будуємо продакшн-системи від початку до кінця: React-фронтенди, що лишаються швидкими під навантаженням, Node.js та PHP сервіси за ними, і real-time HTML5 ігрові engine, що працюють на регульованих ринках. Десять років реально зробленого, а не слайдів.",
+    "Novacode Tech — це софтверна студія, що працює в iGaming. Ми будуємо продакшн-системи від початку до кінця: React-фронтенди, що витримують навантаження, Node.js та PHP сервіси за ними, і real-time HTML5 ігрові engine для регульованих ринків. Ми працюємо всередині продуктових команд і рухаємо справу вперед разом.",
   "home.hero.note": "Рухайте мишею, щоб збурити фон · клікніть, щоб пустити хвилю",
 
   "home.stats.experience": "років розробки продакшн-софту",
@@ -434,17 +456,17 @@ export const uk: Record<TKey, string> = {
   "home.stats.products": "зроблених продуктів і платформ",
 
   "home.what.kicker": "Що ми робимо",
-  "home.what.title": "Один інженер на весь стек.",
+  "home.what.title": "Через увесь стек і через команди.",
   "home.what.lead":
-    "Кращий game-розробник за більшість платформних інженерів і кращий платформний інженер за більшість game-розробників — тож фронтенд, сервіси за ним і engine, що все це малює, приходять з одного місця.",
+    "Нам однаково комфортно і в React-дашборді, і в Node чи PHP сервісі за ним, і в ігровому engine, що малює результат. Ми долучаємося до продуктових команд, ведемо ідеї від прототипу до релізу й цінуємо процес не менше за код.",
 
   "home.cta.title": "Маєте платформу чи гру для реалізації?",
-  "home.cta.text": "Напишіть, над чим працюєте — відповідаю швидко.",
+  "home.cta.text": "Напишіть, над чим працюєте — відповідаємо швидко.",
 
   // ---- What we build ----
   "services.s1.title": "Високонавантажені вебплатформи",
   "services.s1.text":
-    "Бізнес-критичні застосунки, де продуктивність і коректність — це вимога, а не приємний бонус.",
+    "Бізнес-критичні застосунки, де продуктивність і коректність — тверда вимога.",
   "services.s1.li1": "CRM та системи промо-менеджменту (турніри, races, free spins, виграшні механіки)",
   "services.s1.li2": "Real-time аналітичні дашборди для комерційних і технічних команд",
   "services.s1.li3": "B2B партнерські портали з відстеженням показників клієнтів",
@@ -467,7 +489,7 @@ export const uk: Record<TKey, string> = {
 
   "services.s4.title": "AI-інструменти та автоматизація",
   "services.s4.text":
-    "LLM-агенти, націлені на реальні інженерні задачі — не чат-боти, а пайплайни з перевірюваним результатом.",
+    "LLM-агенти, націлені на реальну інженерну роботу — пайплайни з перевірюваним результатом, що вбудовуються у workflow команди.",
   "services.s4.li1": "Мультиагентні пайплайни на Claude (Opus / Sonnet) з tool use",
   "services.s4.li2": "Доменний аналіз, code review та автоматизація codegen",
   "services.s4.li3": "Запуски агентів з обліком вартості, відновлювані й відтворювані",
@@ -483,7 +505,7 @@ export const uk: Record<TKey, string> = {
   "services.s6.title": "Мобайл та менторство",
   "services.s6.text": "Кросплатформний мобайл на тих самих React-основах, плюс senior-менторство та рев’ю.",
   "services.s6.li1": "React Native для iOS та Android (камера, відео, GraphQL)",
-  "services.s6.li2": "Колишній React-ментор у HTML Academy",
+  "services.s6.li2": "Менторство 10+ React-інженерів до завершення курсу (HTML Academy)",
   "services.s6.li3": "Рев’ю архітектури та аудит продуктивності фронтенду",
 
   // ---- Expertise / About ----
@@ -491,17 +513,28 @@ export const uk: Record<TKey, string> = {
   "expertise.hero.kicker": "Про мене та експертиза",
   "expertise.hero.title": "Десятиліття у фронтенді, бекенді та ігрових engine.",
   "expertise.hero.lead":
-    "Novacode Tech заснував і веде Юрій Зубач — full-stack та game-розробник, який зараз будує real-time ігровий engine для провідного iGaming-провайдера.",
+    "Novacode Tech — це студія Юрія Зубача, full-stack та game-розробника, що будує високонавантажені платформи й real-time ігровий engine для галузі iGaming.",
 
-  "about.title": "Про мене",
+  "about.title": "Про нас",
   "about.p1":
-    "Я Юрій Зубач — full-stack та game-розробник, який сам пише код, і людина за студією Novacode Tech. Близько десяти років я розробляю продакшн-софт: високонавантажені React-фронтенди, бекенди на Node.js та PHP, а останні три роки — real-time ігровий engine, що працює на регульованих ринках.",
+    "Novacode Tech — це студія Юрія Зубача, full-stack та game-розробника з приблизно десятьма роками розробки продакшн-софту. Останні чотири — в iGaming: високонавантажені React-платформи, Node.js та PHP сервіси й real-time HTML5 ігровий engine для регульованих ринків.",
   "about.p2":
-    "Мені до вподоби шов між двома світами, що рідко перетинаються. Я кращий game-розробник за більшість платформних інженерів і кращий платформний інженер за більшість game-розробників — тож мені однаково комфортно зранку писати стейтчарт, що керує спіном слота, а по обіді — сервіс, що валідує його контракти.",
+    "Ми працюємо близько до команди, день за днем — з продакт-менеджерами, дизайнерами, ігровими математиками, QA та іншими інженерними командами. Спілкуємося англійською та словацькою (з допомогою AI) і вільно українською та російською.",
   "about.p3":
-    "На практиці це означало: три CRM та аналітичні платформи для живих промо-механік; ERP для роздрібної мережі у США; повноцінні e-commerce платформи й фронтенд інтернет-банкінгу для великого банку; бекенди на Node.js та PHP; і ключову розробку монорепозиторію ігрового engine з 60+ пакетів. Останнім часом багато часу йде на AI-інструменти — агентів на Claude, що роблять реальну роботу: від аудиту ігрової математики до побудови причинних моделей фінансових новин.",
+    "Нас рухає ownership. Коли ми бачимо проблему, ми заглиблюємося в неї, будуємо proof of concept, щоб перевірити ідею, а потім приносимо її колегам і переконуємо рухати далі разом. Багато з того, чим ми пишаємося, почалося саме так — від AI-інструментів для ігрової математики до вебплатформ, що виросли в системи, на які команди спираються щодня.",
   "about.p4":
-    "Novacode — свідомо студія однієї людини. Ви працюєте напряму з інженером, що ухвалює рішення, а не з прошарком над ним. Якщо у вас є щось складне для реалізації — буду радий почути.",
+    "Хороші продукти народжуються з людей і процесу — комунікації, спільного ownership, сталої ітерації. Навколо ідеї ми будуємо команду й рух так само, як і сам код. Якщо у вас є щось складне для реалізації — будемо раді почути.",
+
+  "howwework.title": "Як ми працюємо",
+  "howwework.v1.title": "Ownership від початку до кінця",
+  "howwework.v1.text":
+    "Ми знаходимо проблему, прототипуємо рішення і проводимо ідею з командою — від proof of concept до продакшну.",
+  "howwework.v2.title": "Будуємо з командами",
+  "howwework.v2.text":
+    "Ми працюємо всередині продуктових команд і між ними — продукт, дизайн, математика, QA та бекенд — бо саме так народжуються справжні продукти.",
+  "howwework.v3.title": "Майстерність, що лишається",
+  "howwework.v3.text":
+    "Ми пишаємося платформами, що в щоденному використанні навіть за роки, інструментами, які переймають інші інженери, і кодом, який спокійно підтримувати.",
 
   "expertise.stack.title": "Основний стек",
   "expertise.stack.frontend": "Фронтенд",
@@ -522,42 +555,42 @@ export const uk: Record<TKey, string> = {
   "exp.s1.period": "2021 — зараз",
   "exp.s1.title": "Real-time ігрові engine та високонавантажені платформи",
   "exp.s1.text":
-    "Де я зараз: ключова розробка HTML5 слот-engine нового покоління для провідного iGaming-провайдера — монорепозиторій з 60+ пакетів на TypeScript і Phaser, де життєвий цикл спіну змодельовано як XState-стейтчарти, а анімацію керують GSAP і Spine. Паралельно: високонавантажені React CRM та аналітичні платформи, мікросервіси на Node.js / NestJS і AI-агентні інструменти (Claude) для аудиту ігрової математики та моделювання причинності фінансових новин. Домен: регульований real-money gaming, висока конкурентність, сертифікація. Кілька проєктів цього періоду під NDA, і я не можу їх називати.",
+    "Де ми зараз: ключова розробка HTML5 слот-engine нового покоління для галузі iGaming — монорепозиторій з 60+ пакетів на TypeScript і Phaser, де життєвий цикл спіну змодельовано як XState-стейтчарти, а анімацію керують GSAP і Spine. Поряд: високонавантажені React CRM та аналітичні платформи, мікросервіси на Node.js / NestJS і AI-агентні інструменти (Claude) для ігрової математики та моделювання причинності фінансових новин. Домен: регульований real-money gaming, висока конкурентність, сертифікація. Частина роботи цього періоду під NDA.",
 
   "exp.s2.period": "2019 — 2021",
   "exp.s2.title": "Fintech та SaaS, full-stack",
   "exp.s2.text":
-    "Заглиблення у продуктову розробку в доменах із високою довірою. У signNow я працював full-stack над SaaS для електронного підпису — React / Redux поверх агрегації сервісів на Node.js / HapiJS. Для платформи інтернет-банкінгу Alfa-Bank для підприємців я побудував багатомовний, орієнтований на надійність React-фронтенд. Паралельно менторив інших інженерів на просунутому курсі з клієнтських застосунків React. Домен: workflow електронного підпису, інтернет-банкінг, безпечна робота з документами.",
+    "Продуктова розробка в доменах із високою довірою. У signNow ми працювали full-stack над SaaS для електронного підпису — React / Redux поверх агрегації сервісів на Node.js / HapiJS. Для платформи інтернет-банкінгу Alfa-Bank для підприємців ми побудували багатомовний, орієнтований на надійність React-фронтенд. Паралельно менторили інженерів на просунутому курсі з клієнтських застосунків React. Домен: workflow електронного підпису, інтернет-банкінг, безпечна робота з документами.",
 
   "exp.s3.period": "2018 — 2019",
   "exp.s3.title": "Кросплатформна продуктова розробка",
   "exp.s3.text":
-    "Працював і у вебі, і в мобайлі: SSR React e-commerce фронтенди поверх PHP-бекендів з чергами, внутрішній ERP, React Native застосунок для водіїв та iOS / Android відео Q&A застосунок на Apollo / GraphQL. Домен: e-commerce, мобайл, GraphQL API — і навчання доставляти один продукт на багато платформ.",
+    "Веб і мобайл паралельно: SSR React e-commerce фронтенди поверх PHP-бекендів з чергами, внутрішній ERP, React Native застосунок для водіїв та iOS / Android відео Q&A застосунок на Apollo / GraphQL. Домен: e-commerce, мобайл, GraphQL API і доставка одного продукту на багато платформ.",
 
   "exp.s4.period": "2016 — 2018",
   "exp.s4.title": "Основи у великому e-commerce",
   "exp.s4.text":
-    "Де я загартувався: full-stack робота над MOYO, однією з більших e-commerce платформ України — PHP / Yii, Redis, MySQL та Elasticsearch під реальним трафіком. Саме тут мислення про high-load, кешування та пошук у масштабі стало другою натурою. Плюс інші клієнтські проєкти, які не можу розкривати.",
+    "Де ми загартувалися: full-stack робота над MOYO, однією з більших e-commerce платформ України — PHP / Yii, Redis, MySQL та Elasticsearch під реальним трафіком. Мислення про high-load, кешування та пошук у масштабі стало тут другою натурою, поряд з іншими клієнтськими проєктами під NDA.",
 
   // ---- Work ----
   "work.title": "Проєкти — Novacode Tech",
   "work.hero.kicker": "Вибрані проєкти",
   "work.hero.title": "Те, що ми збудували.",
   "work.hero.lead":
-    "Три проєкти, якими пишаюся, описані достатньо конкретно, щоб бути справжніми. Специфічні для клієнта механіки лишаються конфіденційними — архітектура ні.",
+    "Три проєкти, якими пишаємося, описані достатньо конкретно, щоб бути справжніми. Специфічні для клієнта механіки лишаються конфіденційними; архітектура ні.",
 
   "work.flagship.title": "Флагманські проєкти",
 
   "work.f1.tag": "iGaming · Ігровий engine · 3 роки",
   "work.f1.title": "Слот-engine нового покоління",
   "work.f1.text":
-    "Ключовий інженер слот-engine нового покоління для провідного iGaming-провайдера — три роки й далі. Це монорепозиторій з 60+ пакетів на Nx / TypeScript і Phaser, де весь життєвий цикл спіну змодельовано як трирівневу ієрархію XState-стейтчартів: детерміновану, без race conditions і з відновленням посеред сесії — саме те, що регульована гра має гарантувати. Анімація живе у плавному шарі GSAP-таймлайнів, що поєднує твіни, скелетну анімацію Spine та стан компонентів в одному декларативному API. Я також збудував in-browser інструменти для дебагу — живу інспекцію стейтчартів, скрабінг GSAP-таймлайну, профілювання пам’яті prefab-пулу — якими користується вся команда, випускаючи нові тайтли.",
+    "Ми працюємо в ядрі слот-engine нового покоління для галузі iGaming — три роки й далі. Це монорепозиторій з 60+ пакетів на Nx / TypeScript і Phaser, де весь життєвий цикл спіну змодельовано як трирівневу ієрархію XState-стейтчартів: детерміновану, без race conditions і з відновленням посеред сесії, що регульована гра має гарантувати. Анімація працює через плавний шар GSAP-таймлайнів, що поєднує твіни, скелетну анімацію Spine та стан компонентів в одному декларативному API. Ми також збудували in-browser інструменти для дебагу — живу інспекцію стейтчартів, скрабінг GSAP-таймлайну, профілювання пам’яті prefab-пулу — якими користується вся команда, випускаючи нові тайтли.",
   "work.f1.stack": "Phaser 3 · XState 5 · GSAP · Spine · Nx · Rspack · TypeScript",
 
   "work.f2.tag": "iGaming · AI-інструменти",
   "work.f2.title": "AI-копілот для ігрових математиків",
   "work.f2.text":
-    "TypeScript CLI — з термінальним UI на React/Ink — що охоплює весь workflow слот-математики: створення моделі, Monte Carlo симуляції до 100M спінів на worker-потоках та аналіз RTP, волатильності й частоти виграшів. Найбільше пишаюся агентним шаром: ланцюжки пайплайнів на Claude (Opus / Sonnet), що реверс-інженерять RTP-бюджет наявної гри у перевикористовувані задокументовані «скіли», а потім аудитують нову математику за 60+ перевірками коректності й відповідності. Це перетворює багатоденне ручне сертифікаційне рев’ю на повторюваний, відновлюваний пайплайн з обліком вартості.",
+    "TypeScript CLI з термінальним UI на React/Ink, що охоплює весь workflow слот-математики: створення моделі, Monte Carlo симуляції до 100M спінів на worker-потоках та аналіз RTP, волатильності й частоти виграшів. Найбільше пишаємося агентним шаром — ланцюжки пайплайнів на Claude (Opus / Sonnet) і бібліотека з 60+ перевикористовуваних «скілів», що фіксують, як побудовані наші наявні ігри, і повертають це для скерування нової математики. Це перетворює багатоденне ручне сертифікаційне рев’ю на повторюваний, відновлюваний пайплайн з обліком вартості.",
   "work.f2.stack": "TypeScript · Claude (Opus/Sonnet) · Ink · Monte Carlo · Node.js worker threads",
 
   "work.f3.tag": "R&D · Ринкова аналітика",
@@ -590,11 +623,11 @@ export const uk: Record<TKey, string> = {
   "contact.title": "Контакти — Novacode Tech",
   "contact.hero.kicker": "Контакти",
   "contact.hero.title": "Збудуймо щось разом.",
-  "contact.hero.lead": "Розкажіть про свою платформу, гру чи складну фронтенд-задачу. Відповідаю швидко.",
+  "contact.hero.lead": "Розкажіть про свою платформу, гру чи складну фронтенд-задачу. Відповідаємо швидко.",
   "contact.email.label": "Email",
   "contact.linkedin.label": "LinkedIn",
   "contact.telegram.label": "Telegram",
-  "contact.button": "Написати мені email",
+  "contact.button": "Написати нам email",
 
   "contact.company.title": "Дані компанії",
   "contact.company.name": "Юридична назва",
