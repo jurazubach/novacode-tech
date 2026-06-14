@@ -5,7 +5,6 @@ import type { TKey } from "../i18n/dict";
 
 const LINKS: { to: string; key: TKey }[] = [
   { to: "/", key: "nav.home" },
-  { to: "/services", key: "nav.services" },
   { to: "/expertise", key: "nav.expertise" },
   { to: "/work", key: "nav.work" },
   { to: "/contact", key: "nav.contact" },

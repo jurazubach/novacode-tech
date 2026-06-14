@@ -9,7 +9,7 @@ const dist = resolve(root, "dist");
 const { siteUrl } = JSON.parse(readFileSync(resolve(root, "site.config.json"), "utf8"));
 const base = siteUrl.replace(/\/$/, "");
 
-const ROUTES = ["", "/services", "/expertise", "/work", "/contact"];
+const ROUTES = ["", "/expertise", "/work", "/contact"];
 
 const sitemap =
   `<?xml version="1.0" encoding="UTF-8"?>\n` +

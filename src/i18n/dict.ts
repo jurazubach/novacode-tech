@@ -7,7 +7,6 @@ export const en = {
   "meta.brand": "Novacode Tech",
 
   "nav.home": "Home",
-  "nav.services": "Services",
   "nav.expertise": "Expertise",
   "nav.work": "Work",
   "nav.contact": "Contact",
@@ -34,29 +33,10 @@ export const en = {
   "home.what.lead":
     "A better game developer than most platform engineers, and a better platform engineer than most game developers — so the frontend, the services behind it, and the engine that renders it all come from one place.",
 
-  "home.card.web.title": "High-load web platforms",
-  "home.card.web.text":
-    "React applications that hold up under real traffic: CRM and promo engines, real-time analytics dashboards, B2B partner portals.",
-  "home.card.game.title": "HTML5 game engines",
-  "home.card.game.text":
-    "Slot games on a modular Phaser engine where the spin lifecycle is a deterministic XState statechart, with Spine and GSAP driving animation.",
-  "home.card.backend.title": "Backend & APIs",
-  "home.card.backend.text":
-    "Node.js / NestJS and PHP services, BFF layers, and contract validation with inheritable JSON schemas.",
-  "home.card.ai.title": "AI tooling that does real work",
-  "home.card.ai.text":
-    "Claude-driven agent pipelines applied to hard domains — auditing slot-game math, modeling causal chains in financial news.",
-
   "home.cta.title": "Have a platform or a game to build?",
   "home.cta.text": "Tell me what you're working on — I reply fast.",
 
-  // ---- Services ----
-  "services.title": "Services — Novacode Tech",
-  "services.hero.kicker": "Services",
-  "services.hero.title": "What we build for you.",
-  "services.hero.lead":
-    "Engagements range from one hard frontend problem to architecting and delivering a whole platform. Every line is production-minded: typed, tested, observable, and built to survive contact with real users.",
-
+  // ---- What we build (services detail, shown on Home) ----
   "services.s1.title": "High-load web platforms",
   "services.s1.text":
     "Business-critical applications where performance and correctness are the requirement, not a nice-to-have.",
@@ -233,7 +213,6 @@ export const sk: Record<TKey, string> = {
   "meta.brand": "Novacode Tech",
 
   "nav.home": "Domov",
-  "nav.services": "Služby",
   "nav.expertise": "Expertíza",
   "nav.work": "Projekty",
   "nav.contact": "Kontakt",
@@ -260,29 +239,10 @@ export const sk: Record<TKey, string> = {
   "home.what.lead":
     "Lepší game developer než väčšina platform inžinierov a lepší platform inžinier než väčšina game developerov — takže frontend, služby za ním aj engine, ktorý to vykresľuje, prichádzajú z jedného miesta.",
 
-  "home.card.web.title": "Výkonné webové platformy",
-  "home.card.web.text":
-    "React aplikácie, ktoré vydržia reálnu prevádzku: CRM a promo enginy, real-time analytické dashboardy, B2B partnerské portály.",
-  "home.card.game.title": "HTML5 herné enginy",
-  "home.card.game.text":
-    "Slot hry na modulárnom Phaser engine, kde je životný cyklus spinu deterministický XState stavový automat, s animáciou poháňanou Spine a GSAP.",
-  "home.card.backend.title": "Backend a API",
-  "home.card.backend.text":
-    "Node.js / NestJS a PHP služby, BFF vrstvy a validácia kontraktov cez dediteľné JSON schémy.",
-  "home.card.ai.title": "AI nástroje, ktoré robia skutočnú prácu",
-  "home.card.ai.text":
-    "Agentné pipeline poháňané Claude v náročných doménach — audit slot-game matematiky, modelovanie príčinných reťazcov vo finančných správach.",
-
   "home.cta.title": "Máte platformu alebo hru na realizáciu?",
   "home.cta.text": "Napíšte mi, na čom pracujete — odpovedám rýchlo.",
 
-  // ---- Services ----
-  "services.title": "Služby — Novacode Tech",
-  "services.hero.kicker": "Služby",
-  "services.hero.title": "Čo pre vás staviame.",
-  "services.hero.lead":
-    "Spolupráca siaha od jedného náročného frontendového problému až po návrh a dodanie celej platformy. Každý riadok je produkčný: typovaný, testovaný, sledovateľný a pripravený obstáť pri reálnych používateľoch.",
-
+  // ---- What we build (services detail, shown on Home) ----
   "services.s1.title": "Výkonné webové platformy",
   "services.s1.text": "Biznisovo kritické aplikácie, kde sú výkon a správnosť požiadavkou, nie bonusom.",
   "services.s1.li1": "CRM a promo systémy (turnaje, races, free spins, výherné mechaniky)",

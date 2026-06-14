@@ -12,11 +12,20 @@ const STATS: { num: string; label: TKey }[] = [
   { num: "3", label: "home.stats.crm" },
 ];
 
-const CARDS: { idx: string; title: TKey; text: TKey }[] = [
-  { idx: "01", title: "home.card.web.title", text: "home.card.web.text" },
-  { idx: "02", title: "home.card.game.title", text: "home.card.game.text" },
-  { idx: "03", title: "home.card.backend.title", text: "home.card.backend.text" },
-  { idx: "04", title: "home.card.ai.title", text: "home.card.ai.text" },
+interface ServiceCard {
+  idx: string;
+  title: TKey;
+  text: TKey;
+  items: TKey[];
+}
+
+const SERVICES: ServiceCard[] = [
+  { idx: "01", title: "services.s1.title", text: "services.s1.text", items: ["services.s1.li1", "services.s1.li2", "services.s1.li3", "services.s1.li4"] },
+  { idx: "02", title: "services.s2.title", text: "services.s2.text", items: ["services.s2.li1", "services.s2.li2", "services.s2.li3", "services.s2.li4"] },
+  { idx: "03", title: "services.s3.title", text: "services.s3.text", items: ["services.s3.li1", "services.s3.li2", "services.s3.li3", "services.s3.li4"] },
+  { idx: "04", title: "services.s4.title", text: "services.s4.text", items: ["services.s4.li1", "services.s4.li2", "services.s4.li3", "services.s4.li4"] },
+  { idx: "05", title: "services.s5.title", text: "services.s5.text", items: ["services.s5.li1", "services.s5.li2", "services.s5.li3", "services.s5.li4"] },
+  { idx: "06", title: "services.s6.title", text: "services.s6.text", items: ["services.s6.li1", "services.s6.li2", "services.s6.li3"] },
 ];
 
 export function Home() {
@@ -25,6 +34,8 @@ export function Home() {
   return (
     <>
       <Seo titleKey="home.title" descKey="home.hero.lead" />
+
+      {/* Hero */}
       <section className="hero">
         <div className="wrap">
           <p className="kicker">{t("home.hero.kicker")}</p>
@@ -34,14 +45,15 @@ export function Home() {
             <Link className="btn btn-primary" to="/contact">
               {t("cta.contact")} <span className="arrow">→</span>
             </Link>
-            <Link className="btn" to="/services">
+            <a className="btn" href="#build">
               {t("cta.services")}
-            </Link>
+            </a>
           </div>
           <p className="hero-note">{t("home.hero.note")}</p>
         </div>
       </section>
 
+      {/* Stats */}
       <section className="section-tight">
         <div className="wrap">
           <Reveal className="stats">
@@ -55,7 +67,8 @@ export function Home() {
         </div>
       </section>
 
-      <section>
+      {/* What we build — the full service detail (formerly a separate page) */}
+      <section id="build" className="anchor-section">
         <div className="wrap">
           <Reveal className="section-head">
             <p className="kicker">{t("home.what.kicker")}</p>
@@ -63,11 +76,16 @@ export function Home() {
             <p className="lead">{t("home.what.lead")}</p>
           </Reveal>
           <div className="grid grid-2">
-            {CARDS.map((c) => (
-              <Reveal as="article" className="card" key={c.idx}>
-                <span className="idx">{c.idx}</span>
-                <h3>{t(c.title)}</h3>
-                <p>{t(c.text)}</p>
+            {SERVICES.map((s) => (
+              <Reveal as="article" className="card" key={s.idx}>
+                <span className="idx">{s.idx}</span>
+                <h3>{t(s.title)}</h3>
+                <p>{t(s.text)}</p>
+                <ul>
+                  {s.items.map((it) => (
+                    <li key={it}>{t(it)}</li>
+                  ))}
+                </ul>
               </Reveal>
             ))}
           </div>

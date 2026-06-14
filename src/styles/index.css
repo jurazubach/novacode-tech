@@ -57,6 +57,12 @@ canvas.ambient-canvas {
 
 .page { position: relative; z-index: 2; }
 
+/* Anchor jump (#build) offset so the sticky header doesn't cover the heading. */
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+.anchor-section { scroll-margin-top: 80px; padding-top: 64px; }
+
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
