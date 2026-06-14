@@ -110,17 +110,10 @@ export const en = {
 
   "expertise.stack.title": "Core stack",
   "expertise.stack.frontend": "Frontend",
-  "expertise.stack.frontendList":
-    "React 16–18 · Redux · Redux-Saga · Reselect · Recompose · Immutable.js · MUI · Styled Components · SSR · i18next",
   "expertise.stack.games": "Games",
-  "expertise.stack.gamesList": "Phaser 3 · Phaser Editor · XState 5 · Spine · GSAP · RxJS",
   "expertise.stack.backend": "Backend",
-  "expertise.stack.backendList":
-    "Node.js · NestJS · HapiJS · PHP / Symfony · Redis · PostgreSQL · MySQL · RabbitMQ · Elasticsearch · Docker",
   "expertise.stack.ai": "AI & data",
-  "expertise.stack.aiList": "Claude (Opus / Sonnet) · agent pipelines · embeddings · pgvector · BullMQ · Fastify",
   "expertise.stack.tooling": "Architecture & tooling",
-  "expertise.stack.toolingList": "Nx monorepo · Rspack · Webpack · TypeScript · Jest · Vitest · Puppeteer · pm2 · NGINX",
 
   "expertise.timeline.title": "Track record",
 
@@ -325,17 +318,10 @@ export const sk: Record<TKey, string> = {
 
   "expertise.stack.title": "Hlavný stack",
   "expertise.stack.frontend": "Frontend",
-  "expertise.stack.frontendList":
-    "React 16–18 · Redux · Redux-Saga · Reselect · Recompose · Immutable.js · MUI · Styled Components · SSR · i18next",
   "expertise.stack.games": "Hry",
-  "expertise.stack.gamesList": "Phaser 3 · Phaser Editor · XState 5 · Spine · GSAP · RxJS",
   "expertise.stack.backend": "Backend",
-  "expertise.stack.backendList":
-    "Node.js · NestJS · HapiJS · PHP / Symfony · Redis · PostgreSQL · MySQL · RabbitMQ · Elasticsearch · Docker",
   "expertise.stack.ai": "AI a dáta",
-  "expertise.stack.aiList": "Claude (Opus / Sonnet) · agentné pipeline · embeddingy · pgvector · BullMQ · Fastify",
   "expertise.stack.tooling": "Architektúra a nástroje",
-  "expertise.stack.toolingList": "Nx monorepo · Rspack · Webpack · TypeScript · Jest · Vitest · Puppeteer · pm2 · NGINX",
 
   "expertise.timeline.title": "Skúsenosti",
 
@@ -538,17 +524,10 @@ export const uk: Record<TKey, string> = {
 
   "expertise.stack.title": "Основний стек",
   "expertise.stack.frontend": "Фронтенд",
-  "expertise.stack.frontendList":
-    "React 16–18 · Redux · Redux-Saga · Reselect · Recompose · Immutable.js · MUI · Styled Components · SSR · i18next",
   "expertise.stack.games": "Ігри",
-  "expertise.stack.gamesList": "Phaser 3 · Phaser Editor · XState 5 · Spine · GSAP · RxJS",
   "expertise.stack.backend": "Бекенд",
-  "expertise.stack.backendList":
-    "Node.js · NestJS · HapiJS · PHP / Symfony · Redis · PostgreSQL · MySQL · RabbitMQ · Elasticsearch · Docker",
   "expertise.stack.ai": "AI та дані",
-  "expertise.stack.aiList": "Claude (Opus / Sonnet) · agent pipelines · embeddings · pgvector · BullMQ · Fastify",
   "expertise.stack.tooling": "Архітектура та інструменти",
-  "expertise.stack.toolingList": "Nx monorepo · Rspack · Webpack · TypeScript · Jest · Vitest · Puppeteer · pm2 · NGINX",
 
   "expertise.timeline.title": "Досвід",
 

@@ -2,17 +2,10 @@ import { useI18n } from "../i18n/I18nContext";
 import { Seo } from "../seo/Seo";
 import { Reveal } from "../components/Reveal";
 import { CtaBanner } from "../components/CtaBanner";
+import { STACK } from "../data/stack";
 import type { TKey } from "../i18n/dict";
 
 const ABOUT: TKey[] = ["about.p1", "about.p2", "about.p3", "about.p4"];
-
-const STACK: { name: TKey; list: TKey }[] = [
-  { name: "expertise.stack.frontend", list: "expertise.stack.frontendList" },
-  { name: "expertise.stack.games", list: "expertise.stack.gamesList" },
-  { name: "expertise.stack.backend", list: "expertise.stack.backendList" },
-  { name: "expertise.stack.ai", list: "expertise.stack.aiList" },
-  { name: "expertise.stack.tooling", list: "expertise.stack.toolingList" },
-];
 
 const TIMELINE: { period: TKey; title: TKey; text: TKey }[] = [
   { period: "exp.s1.period", title: "exp.s1.title", text: "exp.s1.text" },
@@ -75,11 +68,22 @@ export function Expertise() {
           <Reveal className="section-head">
             <h2>{t("expertise.stack.title")}</h2>
           </Reveal>
-          <div className="stack-grid">
-            {STACK.map((s) => (
-              <Reveal className="stack-item" key={s.name}>
-                <div className="name">{t(s.name)}</div>
-                <div className="list">{t(s.list)}</div>
+          <div className="stack-cats">
+            {STACK.map((group) => (
+              <Reveal className="stack-cat" key={group.titleKey}>
+                <div className="stack-cat-name">{t(group.titleKey)}</div>
+                <ul className="chips">
+                  {group.items.map((item) => (
+                    <li className="chip" key={item.name}>
+                      {item.Icon ? (
+                        <item.Icon className="chip-icon" aria-hidden />
+                      ) : (
+                        <span className="chip-mono" aria-hidden>{item.mono}</span>
+                      )}
+                      <span>{item.name}</span>
+                    </li>
+                  ))}
+                </ul>
               </Reveal>
             ))}
           </div>
