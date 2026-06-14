@@ -146,7 +146,7 @@ export const en = {
 
   "work.flagship.title": "What we're building now",
 
-  "work.f1.tag": "iGaming · Game client · 3 years",
+  "work.f1.tag": "iGaming · Game client",
   "work.f1.title": "Next-generation slot-game client",
   "work.f1.text":
     "We work at the core of a next-generation game client that slot titles are built on for the iGaming industry — three years and counting. It's a 60+ package Nx / TypeScript monorepo on Phaser, where the whole spin lifecycle is modeled as a three-level XState statechart hierarchy: deterministic, free of race conditions, and recoverable mid-session, which is what a regulated game has to guarantee. Animation runs through a fluent GSAP timeline layer that unifies tweens, Spine skeletal animation and component state in one declarative API. We also built the in-browser debug tooling — live statechart inspection, GSAP timeline scrubbing, prefab-pool memory profiling — that the whole team uses to ship new titles.",
@@ -156,8 +156,8 @@ export const en = {
   "work.f2.text":
     "A TypeScript CLI with a React/Ink terminal UI that wraps the whole slot-math workflow: scaffold a model, run Monte Carlo simulations of up to 100M spins across worker threads, and analyze RTP, volatility and hit-frequency. The agent layer is what we're proudest of — chained Claude (Opus / Sonnet) pipelines and a library of 60+ reusable skills that capture how our existing games are built and feed that back to steer new math. It turns a multi-day manual certification review into a repeatable, resumable, cost-tracked pipeline.",
 
-  "work.f3.tag": "R&D · Markets intelligence",
-  "work.f3.title": "Mantis — news-driven trading signals",
+  "work.f3.tag": "R&D · Trading intelligence",
+  "work.f3.title": "M.A.N.T.I.S. — news-driven trading signals",
   "work.f3.text":
     "An in-house R&D platform that turns financial news into trading signals. It ingests 30+ institutional, crypto and macro sources, then runs an eight-stage pipeline: normalize → deduplicate (Redis + pgvector embeddings) → classify and extract entities with Claude → ensemble sentiment → causal-chain reasoning that models two to three levels of probable consequences per event. Related events cluster into consensus-scored signals, weighted across eight source-quality dimensions, and a closed feedback loop scores every signal against realized 1h / 4h / 24h price moves using immutable anchors — so the system measures whether it was actually right, not whether it merely sounded confident.",
 
