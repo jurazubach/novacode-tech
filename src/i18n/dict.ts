@@ -82,10 +82,10 @@ export const en = {
 
   // ---- Expertise / About ----
   "expertise.title": "Expertise — Novacode Tech",
-  "expertise.hero.kicker": "About & expertise",
+  "expertise.hero.kicker": "Expertise",
   "expertise.hero.title": "A decade across frontend, backend and game clients.",
   "expertise.hero.lead":
-    "Novacode Tech is the studio of Yurii Zubach — a full-stack and game developer building high-load platforms and the real-time client that slot games are built on for the iGaming industry.",
+    "Ten years of production work across high-load React frontends, Node.js and PHP backends, real-time game clients and AI tooling — here's the stack we use and the track record behind it.",
 
   "about.title": "About",
   "about.p1":
@@ -144,50 +144,48 @@ export const en = {
   "work.hero.lead":
     "Three projects we're proud of, described in enough detail to be real. Client-specific mechanics stay confidential; the architecture doesn't.",
 
-  "work.flagship.title": "Flagship projects",
+  "work.flagship.title": "What we're building now",
 
   "work.f1.tag": "iGaming · Game client · 3 years",
   "work.f1.title": "Next-generation slot-game client",
   "work.f1.text":
     "We work at the core of a next-generation game client that slot titles are built on for the iGaming industry — three years and counting. It's a 60+ package Nx / TypeScript monorepo on Phaser, where the whole spin lifecycle is modeled as a three-level XState statechart hierarchy: deterministic, free of race conditions, and recoverable mid-session, which is what a regulated game has to guarantee. Animation runs through a fluent GSAP timeline layer that unifies tweens, Spine skeletal animation and component state in one declarative API. We also built the in-browser debug tooling — live statechart inspection, GSAP timeline scrubbing, prefab-pool memory profiling — that the whole team uses to ship new titles.",
-  "work.f1.stack": "Phaser 3 · XState 5 · GSAP · Spine · Nx · Rspack · TypeScript",
 
   "work.f2.tag": "iGaming · AI tooling",
   "work.f2.title": "AI copilot for game mathematicians",
   "work.f2.text":
     "A TypeScript CLI with a React/Ink terminal UI that wraps the whole slot-math workflow: scaffold a model, run Monte Carlo simulations of up to 100M spins across worker threads, and analyze RTP, volatility and hit-frequency. The agent layer is what we're proudest of — chained Claude (Opus / Sonnet) pipelines and a library of 60+ reusable skills that capture how our existing games are built and feed that back to steer new math. It turns a multi-day manual certification review into a repeatable, resumable, cost-tracked pipeline.",
-  "work.f2.stack": "TypeScript · Claude (Opus/Sonnet) · Ink · Monte Carlo · Node.js worker threads",
 
   "work.f3.tag": "R&D · Markets intelligence",
   "work.f3.title": "Mantis — news-driven trading signals",
   "work.f3.text":
     "An in-house R&D platform that turns financial news into trading signals. It ingests 30+ institutional, crypto and macro sources, then runs an eight-stage pipeline: normalize → deduplicate (Redis + pgvector embeddings) → classify and extract entities with Claude → ensemble sentiment → causal-chain reasoning that models two to three levels of probable consequences per event. Related events cluster into consensus-scored signals, weighted across eight source-quality dimensions, and a closed feedback loop scores every signal against realized 1h / 4h / 24h price moves using immutable anchors — so the system measures whether it was actually right, not whether it merely sounded confident.",
-  "work.f3.stack": "TypeScript · Claude · PostgreSQL + pgvector · BullMQ · Fastify · Redis",
 
   "work.more.title": "More work",
   "work.m1.tag": "iGaming · Frontend",
   "work.m1.title": "Promo management CRM",
-  "work.m1.text": "Live promotional mechanics — tournaments, races, free spins, prize wheels — across a high-load casino product.",
+  "work.m1.text": "A React control center for live casino promotions — tournaments, leaderboards, short races, free-spin and cash-drop campaigns. Operators configure, schedule and monitor mechanics in real time across thousands of concurrent players.",
   "work.m2.tag": "iGaming · Analytics",
   "work.m2.title": "Real-time analytics dashboard",
-  "work.m2.text": "Live data turned into strategic dashboards for commercial and technical teams.",
+  "work.m2.text": "Streaming analytics for commercial and technical teams — player activity, campaign performance and live KPIs over high-volume event data, built for fast reads and quick strategic decisions.",
   "work.m3.tag": "iGaming · B2B",
   "work.m3.title": "B2B partner portal",
-  "work.m3.text": "Analytics portal where partners track client performance, on the same high-load React foundation.",
+  "work.m3.text": "A self-serve B2B portal where partners track client performance, revenue and game metrics — the same high-load React foundation, scoped per partner with role-based access.",
   "work.m4.tag": "Fintech · Banking",
   "work.m4.title": "Online banking for entrepreneurs",
-  "work.m4.text": "Multilingual, reliability-first frontend for a business-banking platform at a major bank.",
+  "work.m4.text": "A multilingual online-banking frontend for business clients at a major bank — accounts, payments and statements, with reliability and accessibility treated as first-class requirements.",
   "work.m5.tag": "E-commerce",
   "work.m5.title": "High-traffic online shops",
-  "work.m5.text": "SSR React frontends over queue-backed PHP services and Elasticsearch search, on large e-commerce platforms.",
+  "work.m5.text": "Server-side-rendered React storefronts on large e-commerce platforms, backed by queue-driven PHP services and Elasticsearch search — tuned for SEO, page speed and conversion under heavy traffic.",
   "work.m6.tag": "Mobile · React Native",
   "work.m6.title": "Cross-platform mobile apps",
-  "work.m6.text": "A driver app and a video Q&A app for iOS and Android — camera, video, GraphQL.",
+  "work.m6.text": "React Native apps for iOS and Android — a driver logistics app and a video Q&A platform — with camera, video capture and GraphQL data on a shared cross-platform codebase.",
 
   // ---- Contact ----
-  "contact.title": "Contact — Novacode Tech",
-  "contact.hero.kicker": "Contact",
+  "contact.title": "About & Contact — Novacode Tech",
+  "contact.hero.kicker": "About & contact",
   "contact.hero.title": "Let's build something.",
+  "contact.reach.title": "Get in touch",
   "contact.hero.lead": "Tell us about your platform, game or hard frontend problem. We reply quickly.",
   "contact.email.label": "Email",
   "contact.linkedin.label": "LinkedIn",
@@ -290,10 +288,10 @@ export const sk: Record<TKey, string> = {
 
   // ---- Expertise / About ----
   "expertise.title": "Expertíza — Novacode Tech",
-  "expertise.hero.kicker": "O nás a expertíza",
+  "expertise.hero.kicker": "Expertíza",
   "expertise.hero.title": "Dekáda naprieč frontendom, backendom a hernými klientmi.",
   "expertise.hero.lead":
-    "Novacode Tech je štúdio Yuriia Zubacha — full-stack a game developera, ktorý stavia výkonné platformy a real-time klient, na ktorom vznikajú slotové hry, pre odvetvie iGamingu.",
+    "Desať rokov produkčnej práce naprieč výkonnými React frontendmi, Node.js a PHP backendmi, real-time hernými klientmi a AI nástrojmi — tu je stack, ktorý používame, a skúsenosti za ním.",
 
   "about.title": "O nás",
   "about.p1":
@@ -352,50 +350,48 @@ export const sk: Record<TKey, string> = {
   "work.hero.lead":
     "Tri projekty, na ktoré sme hrdí, opísané dosť konkrétne na to, aby boli skutočné. Mechaniky špecifické pre klienta zostávajú dôverné; architektúra nie.",
 
-  "work.flagship.title": "Hlavné projekty",
+  "work.flagship.title": "Na čom pracujeme teraz",
 
   "work.f1.tag": "iGaming · Herný klient · 3 roky",
   "work.f1.title": "Klient slotových hier novej generácie",
   "work.f1.text":
     "Pracujeme v jadre herného klienta novej generácie, na ktorom vznikajú slotové tituly, pre odvetvie iGamingu — tri roky a stále pokračuje. Je to 60+ balíkové Nx / TypeScript monorepo na Phaser, kde je celý životný cyklus spinu modelovaný ako trojúrovňová hierarchia XState stavových automatov: deterministická, bez race conditions a obnoviteľná uprostred relácie, čo regulovaná hra musí garantovať. Animácia beží cez plynulú GSAP timeline vrstvu, ktorá zjednocuje tweeny, Spine kostrovú animáciu a stav komponentov v jednom deklaratívnom API. Postavili sme aj in-browser nástroje na ladenie — živú inšpekciu stavových automatov, scrubbing GSAP timeline, profilovanie pamäte prefab poolu — ktoré používa celý tím pri vydávaní nových titulov.",
-  "work.f1.stack": "Phaser 3 · XState 5 · GSAP · Spine · Nx · Rspack · TypeScript",
 
   "work.f2.tag": "iGaming · AI nástroje",
   "work.f2.title": "AI copilot pre herných matematikov",
   "work.f2.text":
     "TypeScript CLI s terminálovým UI na React/Ink, ktoré zastreší celý workflow slot matematiky: vytvorenie modelu, Monte Carlo simulácie až do 100M spinov naprieč worker threadmi a analýzu RTP, volatility a frekvencie výhier. Najviac sme hrdí na agentnú vrstvu — zreťazené Claude (Opus / Sonnet) pipeline a knižnicu 60+ znovupoužiteľných „skills“, ktoré zachytávajú, ako sú postavené naše existujúce hry, a vracajú to späť na nasmerovanie novej matematiky. Mení to viacdňovú manuálnu certifikačnú revíziu na opakovateľnú, obnoviteľnú pipeline so sledovaním nákladov.",
-  "work.f2.stack": "TypeScript · Claude (Opus/Sonnet) · Ink · Monte Carlo · Node.js worker threads",
 
   "work.f3.tag": "R&D · Trhová inteligencia",
   "work.f3.title": "Mantis — obchodné signály z noviniek",
   "work.f3.text":
     "Vlastná R&D platforma, ktorá mení finančné správy na obchodné signály. Zbiera 30+ inštitucionálnych, krypto a makro zdrojov a potom beží osemstupňová pipeline: normalizácia → deduplikácia (Redis + pgvector embeddingy) → klasifikácia a extrakcia entít cez Claude → ensemble sentiment → príčinné reťazce modelujúce dve až tri úrovne pravdepodobných dôsledkov na udalosť. Súvisiace udalosti sa zoskupujú do signálov so skóre konsenzu, váženého naprieč ôsmimi dimenziami kvality zdroja, a uzavretá spätná väzba hodnotí každý signál oproti reálnym pohybom ceny 1h / 4h / 24h pomocou nemenných kotiev — systém teda meria, či mal naozaj pravdu, nie či len znel sebavedomo.",
-  "work.f3.stack": "TypeScript · Claude · PostgreSQL + pgvector · BullMQ · Fastify · Redis",
 
   "work.more.title": "Ďalšia práca",
   "work.m1.tag": "iGaming · Frontend",
   "work.m1.title": "CRM pre promo manažment",
-  "work.m1.text": "Živé promo mechaniky — turnaje, races, free spins, kolesá šťastia — naprieč výkonným kasíno produktom.",
+  "work.m1.text": "React riadiace centrum pre živé kasíno promá — turnaje, rebríčky, short races, free-spin a cash-drop kampane. Operátori konfigurujú, plánujú a sledujú mechaniky v reálnom čase naprieč tisíckami súbežných hráčov.",
   "work.m2.tag": "iGaming · Analytika",
   "work.m2.title": "Real-time analytický dashboard",
-  "work.m2.text": "Živé dáta premenené na strategické dashboardy pre obchodné a technické tímy.",
+  "work.m2.text": "Streamovaná analytika pre obchodné a technické tímy — aktivita hráčov, výkon kampaní a živé KPI nad veľkým objemom eventov, postavená na rýchle čítanie a rýchle strategické rozhodnutia.",
   "work.m3.tag": "iGaming · B2B",
   "work.m3.title": "B2B partnerský portál",
-  "work.m3.text": "Analytický portál, kde partneri sledujú výkon klientov, na rovnakom výkonnom React základe.",
+  "work.m3.text": "Samoobslužný B2B portál, kde partneri sledujú výkon klientov, výnosy a herné metriky — na rovnakom výkonnom React základe, oddelený pre každého partnera s rolami a prístupmi.",
   "work.m4.tag": "Fintech · Banking",
   "work.m4.title": "Internetbanking pre podnikateľov",
-  "work.m4.text": "Viacjazyčný frontend postavený na spoľahlivosti pre platformu firemného bankovníctva vo veľkej banke.",
+  "work.m4.text": "Viacjazyčný frontend internetbankingu pre firemných klientov vo veľkej banke — účty, platby a výpisy, kde sú spoľahlivosť a prístupnosť prvoradou požiadavkou.",
   "work.m5.tag": "E-commerce",
   "work.m5.title": "E-shopy s vysokou návštevnosťou",
-  "work.m5.text": "SSR React frontendy nad PHP službami s frontami a vyhľadávaním cez Elasticsearch, na veľkých e-commerce platformách.",
+  "work.m5.text": "Server-side-rendered React výklady na veľkých e-commerce platformách, podopreté PHP službami s frontami a vyhľadávaním cez Elasticsearch — ladené na SEO, rýchlosť a konverziu pri vysokej návštevnosti.",
   "work.m6.tag": "Mobil · React Native",
   "work.m6.title": "Multiplatformové mobilné aplikácie",
-  "work.m6.text": "Aplikácia pre vodičov a video Q&A aplikácia pre iOS a Android — kamera, video, GraphQL.",
+  "work.m6.text": "React Native aplikácie pre iOS a Android — logistická aplikácia pre vodičov a video Q&A platforma — s kamerou, nahrávaním videa a GraphQL dátami na zdieľanom kódovom základe.",
 
   // ---- Contact ----
-  "contact.title": "Kontakt — Novacode Tech",
-  "contact.hero.kicker": "Kontakt",
+  "contact.title": "O nás a kontakt — Novacode Tech",
+  "contact.hero.kicker": "O nás a kontakt",
   "contact.hero.title": "Poďme niečo postaviť.",
+  "contact.reach.title": "Spojme sa",
   "contact.hero.lead": "Napíšte nám o svojej platforme, hre alebo náročnom frontendovom probléme. Odpovedáme rýchlo.",
   "contact.email.label": "E-mail",
   "contact.linkedin.label": "LinkedIn",
@@ -496,10 +492,10 @@ export const uk: Record<TKey, string> = {
 
   // ---- Expertise / About ----
   "expertise.title": "Експертиза — Novacode Tech",
-  "expertise.hero.kicker": "Про мене та експертиза",
+  "expertise.hero.kicker": "Експертиза",
   "expertise.hero.title": "Десятиліття у фронтенді, бекенді та ігрових клієнтах.",
   "expertise.hero.lead":
-    "Novacode Tech — це студія Юрія Зубача, full-stack та game-розробника, що будує високонавантажені платформи й real-time клієнт, на якому пишуться слот-ігри, для галузі iGaming.",
+    "Десять років продакшн-роботи у високонавантажених React-фронтендах, Node.js та PHP бекендах, real-time ігрових клієнтах та AI-інструментах — ось стек, який ми використовуємо, і досвід за ним.",
 
   "about.title": "Про нас",
   "about.p1":
@@ -558,50 +554,48 @@ export const uk: Record<TKey, string> = {
   "work.hero.lead":
     "Три проєкти, якими пишаємося, описані достатньо конкретно, щоб бути справжніми. Специфічні для клієнта механіки лишаються конфіденційними; архітектура ні.",
 
-  "work.flagship.title": "Флагманські проєкти",
+  "work.flagship.title": "Над чим працюємо зараз",
 
   "work.f1.tag": "iGaming · Ігровий клієнт · 3 роки",
   "work.f1.title": "Клієнт слот-ігор нового покоління",
   "work.f1.text":
     "Ми працюємо в ядрі ігрового клієнта нового покоління, на якому пишуться слот-тайтли, для галузі iGaming — три роки й далі. Це монорепозиторій з 60+ пакетів на Nx / TypeScript і Phaser, де весь життєвий цикл спіну змодельовано як трирівневу ієрархію XState-стейтчартів: детерміновану, без race conditions і з відновленням посеред сесії, що регульована гра має гарантувати. Анімація працює через плавний шар GSAP-таймлайнів, що поєднує твіни, скелетну анімацію Spine та стан компонентів в одному декларативному API. Ми також збудували in-browser інструменти для дебагу — живу інспекцію стейтчартів, скрабінг GSAP-таймлайну, профілювання пам’яті prefab-пулу — якими користується вся команда, випускаючи нові тайтли.",
-  "work.f1.stack": "Phaser 3 · XState 5 · GSAP · Spine · Nx · Rspack · TypeScript",
 
   "work.f2.tag": "iGaming · AI-інструменти",
   "work.f2.title": "AI-копілот для ігрових математиків",
   "work.f2.text":
     "TypeScript CLI з термінальним UI на React/Ink, що охоплює весь workflow слот-математики: створення моделі, Monte Carlo симуляції до 100M спінів на worker-потоках та аналіз RTP, волатильності й частоти виграшів. Найбільше пишаємося агентним шаром — ланцюжки пайплайнів на Claude (Opus / Sonnet) і бібліотека з 60+ перевикористовуваних «скілів», що фіксують, як побудовані наші наявні ігри, і повертають це для скерування нової математики. Це перетворює багатоденне ручне сертифікаційне рев’ю на повторюваний, відновлюваний пайплайн з обліком вартості.",
-  "work.f2.stack": "TypeScript · Claude (Opus/Sonnet) · Ink · Monte Carlo · Node.js worker threads",
 
   "work.f3.tag": "R&D · Ринкова аналітика",
   "work.f3.title": "Mantis — торгові сигнали з новин",
   "work.f3.text":
     "Власна R&D-платформа, що перетворює фінансові новини на торгові сигнали. Вона збирає 30+ інституційних, крипто- та макро-джерел, а потім запускає восьмиетапний пайплайн: нормалізація → дедуплікація (Redis + pgvector embeddings) → класифікація та витяг сутностей через Claude → ансамблевий сентимент → причинні ланцюжки, що моделюють два-три рівні ймовірних наслідків на подію. Пов’язані події об’єднуються у сигнали зі скорингом консенсусу, зваженим за вісьмома вимірами якості джерела, а замкнений цикл зворотного зв’язку оцінює кожен сигнал відносно реальних рухів ціни за 1 год / 4 год / 24 год за допомогою незмінних якорів — тож система міряє, чи мала вона рацію насправді, а не чи просто звучала впевнено.",
-  "work.f3.stack": "TypeScript · Claude · PostgreSQL + pgvector · BullMQ · Fastify · Redis",
 
   "work.more.title": "Інші роботи",
   "work.m1.tag": "iGaming · Фронтенд",
   "work.m1.title": "CRM для промо-менеджменту",
-  "work.m1.text": "Живі промо-механіки — турніри, races, free spins, колеса фортуни — у високонавантаженому казино-продукті.",
+  "work.m1.text": "React-центр керування живими казино-промо — турніри, лідерборди, short races, free-spin та cash-drop кампанії. Оператори налаштовують, планують і моніторять механіки в реальному часі для тисяч одночасних гравців.",
   "work.m2.tag": "iGaming · Аналітика",
   "work.m2.title": "Real-time аналітичний дашборд",
-  "work.m2.text": "Живі дані, перетворені на стратегічні дашборди для комерційних і технічних команд.",
+  "work.m2.text": "Стрімингова аналітика для комерційних і технічних команд — активність гравців, ефективність кампаній і живі KPI поверх великого обсягу подій, побудована на швидке читання та швидкі стратегічні рішення.",
   "work.m3.tag": "iGaming · B2B",
   "work.m3.title": "B2B партнерський портал",
-  "work.m3.text": "Аналітичний портал, де партнери відстежують показники клієнтів, на тій самій високонавантаженій React-основі.",
+  "work.m3.text": "Самообслуговуваний B2B-портал, де партнери відстежують показники клієнтів, дохід і метрики ігор — на тій самій високонавантаженій React-основі, розділений по партнерах із ролями та доступами.",
   "work.m4.tag": "Fintech · Банкінг",
   "work.m4.title": "Інтернет-банкінг для підприємців",
-  "work.m4.text": "Багатомовний, орієнтований на надійність фронтенд для платформи корпоративного банкінгу великого банку.",
+  "work.m4.text": "Багатомовний фронтенд інтернет-банкінгу для бізнес-клієнтів великого банку — рахунки, платежі та виписки, де надійність і доступність є першочерговою вимогою.",
   "work.m5.tag": "E-commerce",
   "work.m5.title": "Високонавантажені онлайн-магазини",
-  "work.m5.text": "SSR React-фронтенди поверх PHP-сервісів з чергами та пошуком через Elasticsearch, на великих e-commerce платформах.",
+  "work.m5.text": "Server-side-rendered React-вітрини на великих e-commerce платформах, підкріплені PHP-сервісами з чергами та пошуком через Elasticsearch — налаштовані на SEO, швидкість і конверсію під високим трафіком.",
   "work.m6.tag": "Мобайл · React Native",
   "work.m6.title": "Кросплатформні мобільні застосунки",
-  "work.m6.text": "Застосунок для водіїв і відео Q&A застосунок для iOS та Android — камера, відео, GraphQL.",
+  "work.m6.text": "React Native застосунки для iOS та Android — логістичний застосунок для водіїв і відео Q&A платформа — з камерою, записом відео та GraphQL-даними на спільній кросплатформній кодовій базі.",
 
   // ---- Contact ----
-  "contact.title": "Контакти — Novacode Tech",
-  "contact.hero.kicker": "Контакти",
+  "contact.title": "Про нас і контакти — Novacode Tech",
+  "contact.hero.kicker": "Про нас і контакти",
   "contact.hero.title": "Збудуймо щось разом.",
+  "contact.reach.title": "Зв’язатися",
   "contact.hero.lead": "Розкажіть про свою платформу, гру чи складну фронтенд-задачу. Відповідаємо швидко.",
   "contact.email.label": "Email",
   "contact.linkedin.label": "LinkedIn",

@@ -2,12 +2,14 @@ import { useI18n } from "../i18n/I18nContext";
 import { Seo } from "../seo/Seo";
 import { Reveal } from "../components/Reveal";
 import { CtaBanner } from "../components/CtaBanner";
+import { StackMarquee } from "../components/StackMarquee";
+import { FLAGSHIP_STACKS } from "../data/work";
 import type { TKey } from "../i18n/dict";
 
-const FLAGSHIP: { num: string; tag: TKey; title: TKey; text: TKey; stack: TKey }[] = [
-  { num: "01", tag: "work.f1.tag", title: "work.f1.title", text: "work.f1.text", stack: "work.f1.stack" },
-  { num: "02", tag: "work.f2.tag", title: "work.f2.title", text: "work.f2.text", stack: "work.f2.stack" },
-  { num: "03", tag: "work.f3.tag", title: "work.f3.title", text: "work.f3.text", stack: "work.f3.stack" },
+const FLAGSHIP: { num: string; id: keyof typeof FLAGSHIP_STACKS; tag: TKey; title: TKey; text: TKey }[] = [
+  { num: "01", id: "f1", tag: "work.f1.tag", title: "work.f1.title", text: "work.f1.text" },
+  { num: "02", id: "f2", tag: "work.f2.tag", title: "work.f2.title", text: "work.f2.text" },
+  { num: "03", id: "f3", tag: "work.f3.tag", title: "work.f3.title", text: "work.f3.text" },
 ];
 
 const MORE: { tag: TKey; title: TKey; text: TKey }[] = [
@@ -47,7 +49,9 @@ export function Work() {
                 </div>
                 <h3>{t(c.title)}</h3>
                 <p>{t(c.text)}</p>
-                <div className="case-stack">{t(c.stack)}</div>
+                <div className="case-stack">
+                  <StackMarquee items={FLAGSHIP_STACKS[c.id]} />
+                </div>
               </Reveal>
             ))}
           </div>

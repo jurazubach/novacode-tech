@@ -273,10 +273,35 @@ h3 { font-size: 1.18rem; font-weight: 700; }
   margin-top: 18px;
   padding-top: 16px;
   border-top: 1px dashed var(--line);
-  font-family: var(--mono);
-  font-size: 0.82rem;
-  color: var(--accent);
-  letter-spacing: 0.02em;
+}
+
+/* ---- Tech-stack marquee (flagship cards) ---- */
+.marquee { overflow: hidden; position: relative; }
+.marquee::after {
+  /* soft fade on the right edge so a scrolling row doesn't end abruptly */
+  content: "";
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 48px;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, var(--panel));
+  opacity: 0;
+  transition: opacity .2s;
+}
+.marquee.is-scrolling::after { opacity: 1; }
+.case:hover .marquee.is-scrolling::after { background: linear-gradient(90deg, transparent, var(--panel-solid)); }
+.marquee-track { display: inline-flex; gap: 10px; white-space: nowrap; will-change: transform; }
+.marquee.is-scrolling .marquee-track { animation: marquee 22s linear infinite; }
+.marquee.is-scrolling:hover .marquee-track { animation-play-state: paused; }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.chip-sm { padding: 6px 11px; font-size: 0.82rem; border-radius: 9px; }
+@media (prefers-reduced-motion: reduce) {
+  .marquee { overflow-x: auto; }
+  .marquee.is-scrolling .marquee-track { animation: none; }
+  .marquee.is-scrolling::after { display: none; }
 }
 
 /* ---- Stack: categorized logo-chip grid (expertise) ---- */
