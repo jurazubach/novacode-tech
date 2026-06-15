@@ -9,14 +9,14 @@ page has real content + its own SEO/meta in the initial HTML.
 
 ```bash
 npm install
-npm run dev        # dev server with HMR + SSR (http://localhost:16782/novacode-tech/)
+npm run dev        # dev server with HMR + SSR (http://localhost:16782/)
 ```
 
 ## Build
 
 ```bash
 npm run build      # tsc + prerender each route to dist/*.html + sitemap/robots/404
-npm run preview    # serve the production build (http://localhost:16783/novacode-tech/)
+npm run preview    # serve the production build (http://localhost:16783/)
 ```
 
 Each route is rendered to its own HTML file (`dist/index.html`, `dist/work.html`, …)
@@ -28,14 +28,18 @@ Routing uses **BrowserRouter** with `basename = import.meta.env.BASE_URL`. GitHu
 resolves clean URLs (`/work` → `work.html`); the `404.html` fallback covers anything
 else.
 
-## ⚙️ Configure before deploy
+## ⚙️ Configuration
 
-Built for a GitHub **project page** at `jurazubach.github.io/novacode-tech/`
-(`base` in `vite.config.ts` and `siteUrl` in `site.config.json` are already set to this).
+Served at the custom domain **`https://www.novacode-tech.sk`** (root path):
+`base: "/"` in `vite.config.ts`, `siteUrl` in `site.config.json`, and `public/CNAME`
+are all set for this. The favicon `href` in `index.html` is `/favicon.svg`.
 
-- **Custom domain later?** If you attach e.g. `novacode.tech`, set `base: "/"` in
-  `vite.config.ts`, update `siteUrl` in `site.config.json`, change the favicon `href`
-  in `index.html` to `/favicon.svg`, and add a `public/CNAME` file.
+- **Custom domain DNS:** `www.novacode-tech.sk` → CNAME `jurazubach.github.io`;
+  apex `novacode-tech.sk` → the four GitHub Pages A records
+  (`185.199.108–111.153`). Then set the custom domain under **Settings → Pages** and
+  enable **Enforce HTTPS**.
+- **Reverting to a bare project page?** Set `base: "/novacode-tech/"`, restore
+  `siteUrl`/favicon to the subpath, and remove `public/CNAME`.
 - (Optional) Replace `public/og.svg` with a 1200×630 **PNG** for the widest social
   preview support.
 

@@ -1,12 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// Deployed as a GitHub *project page*: user.github.io/novacode-tech/.
-// `base` must match that subpath so absolute asset URLs and router basename
-// line up. If you later attach a custom domain, change base to "/" and update
-// siteUrl in site.config.json.
+// Served at the root of the custom domain www.novacode-tech.sk, so `base` is
+// "/". (As a bare GitHub project page this would need to be "/novacode-tech/"
+// to match the user.github.io/novacode-tech/ subpath.)
 export default defineConfig({
-  base: "/novacode-tech/",
+  base: "/",
   plugins: [react()],
   server: { port: 16782, strictPort: true },
   preview: { port: 16783, strictPort: true },
